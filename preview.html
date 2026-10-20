@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThanhETF — Canadian ETF Look-Through & Portfolio Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=Geist:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-0: #08120a;
+      --bg-1: #0d1910;
+      --bg-2: #121e14;
+      --bg-3: #152318;
+      --bg-4: #1d2a1f;
+      --bg-5: #243226;
+      --fg-1: #efebe1;
+      --fg-2: #c2bdb4;
+      --fg-3: #919c92;
+      --fg-muted: #919c92;
+      --primary: #4ebe7d;
+      --primary-hover: #6cd092;
+      --primary-subtle: #0f3620;
+      --accent-2: #f69370;
+      --border: #29372b;
+      --border-faint: #202d22;
+      --font-sans: 'Geist', -apple-system, sans-serif;
+      --font-mono: 'Geist Mono', monospace;
+      --font-display: 'Space Grotesk', sans-serif;
+      --radius: 0px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-0);
+      color: var(--fg-1);
+      font-family: var(--font-sans);
+      line-height: 1.5;
+      padding: 0;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Header Nav */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: var(--bg-0);
+      border-bottom: 2px solid var(--border);
+    }
+    .header-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo-container {
+      display: inline-flex;
+      flex-direction: column;
+      text-decoration: none;
+      gap: 3px;
+    }
+    .logo-text {
+      font-family: var(--font-display);
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+    .logo-text .brand-name { color: var(--fg-1); }
+    .logo-text .brand-accent { color: var(--primary); }
+    .logo-bar {
+      height: 2.5px;
+      width: 54px;
+      background: var(--primary);
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+    .nav-links a {
+      color: var(--fg-2);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+
+    .search-btn {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--bg-2);
+      border: 1px solid var(--border);
+      color: var(--fg-muted);
+      padding: 6px 14px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      cursor: pointer;
+    }
+    .search-btn:hover {
+      border-color: var(--primary);
+      color: var(--fg-1);
+    }
+
+    /* Container */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    .section-title {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .section-title::before {
+      content: '';
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      background: var(--primary);
+    }
+
+    /* Banner Showcase */
+    .banner-card {
+      background: var(--bg-1);
+      border: 1px solid var(--border);
+      padding: 16px;
+      margin-bottom: 40px;
+    }
+    .banner-card img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border: 1px solid var(--border);
+    }
+
+    /* Assets Grid */
+    .assets-grid {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 24px;
+      margin-bottom: 40px;
+    }
+    .asset-box {
+      background: var(--bg-1);
+      border: 1px solid var(--border);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    .asset-box img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 16px;
+      border: 1px solid var(--border);
+    }
+
+    /* Palette Swatches */
+    .palette-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 12px;
+      margin-bottom: 40px;
+    }
+    .swatch {
+      background: var(--bg-1);
+      border: 1px solid var(--border);
+      padding: 12px;
+    }
+    .color-chip {
+      height: 48px;
+      margin-bottom: 8px;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+    .swatch-title {
+      font-family: var(--font-display);
+      font-size: 13px;
+      font-weight: 700;
+    }
+    .swatch-val {
+      font-family: var(--font-mono);
+      font-size: 11px;
+      color: var(--fg-muted);
+    }
+
+    /* Terminal Telemetry / Ticker Row */
+    .ticker-bar {
+      background: var(--bg-1);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 8px 24px;
+      display: flex;
+      gap: 24px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      overflow-x: auto;
+    }
+    .ticker-item {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      white-space: nowrap;
+    }
+    .pos { color: var(--primary); }
+    .neg { color: var(--accent-2); }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      margin-top: 60px;
+      background: var(--bg-0);
+      font-size: 12px;
+      color: var(--fg-muted);
+    }
+    .footer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Top Header -->
+  <header>
+    <div class="header-inner">
+      <a href="#" class="logo-container">
+        <span class="logo-text">
+          <span class="brand-name">Thanh</span><span class="brand-accent">ETF</span>
+        </span>
+        <span class="logo-bar"></span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#etfs">Directory</a>
+        <a href="#compare">Compare</a>
+        <a href="#exposure">Exposure Builder</a>
+        <a href="#simulator">DCA Simulator</a>
+        <a href="#dividends">Dividend & Covered Calls</a>
+        <a href="#rate">Rate Portfolio</a>
+        <a href="#reverse">Reverse Lookup</a>
+      </nav>
+
+      <button class="search-btn">
+        <span>🔍 Search 1,400+ ETFs (e.g. XEQT, VDY)</span>
+        <kbd style="border:1px solid var(--border); padding:2px 4px; font-size:10px;">⌘K</kbd>
+      </button>
+    </div>
+  </header>
+
+  <!-- Live Market Ticker -->
+  <div class="ticker-bar">
+    <div class="ticker-item"><span style="color:var(--fg-1); font-weight:700;">XEQT.TO</span> <span>$34.12</span> <span class="pos">+0.42%</span></div>
+    <div class="ticker-item"><span style="color:var(--fg-1); font-weight:700;">VDY.TO</span> <span>$48.90</span> <span class="pos">+0.28%</span></div>
+    <div class="ticker-item"><span style="color:var(--fg-1); font-weight:700;">ZEB.TO</span> <span>$39.15</span> <span class="neg">-0.15%</span></div>
+    <div class="ticker-item"><span style="color:var(--fg-1); font-weight:700;">VFV.TO</span> <span>$142.30</span> <span class="pos">+0.68%</span></div>
+    <div class="ticker-item"><span style="color:var(--fg-1); font-weight:700;">XEI.TO</span> <span>$27.84</span> <span class="pos">+0.19%</span></div>
+    <div class="ticker-item"><span style="color:var(--fg-1); font-weight:700;">QQCI.TO</span> <span>$21.45</span> <span class="pos">+0.82%</span></div>
+    <div class="ticker-item"><span style="color:var(--fg-1); font-weight:700;">CASH.TO</span> <span>$50.08</span> <span class="pos">4.52% Yield</span></div>
+  </div>
+
+  <main class="container">
+    <!-- Banner Section -->
+    <div class="section-title">Official ThanhETF Brand Banner</div>
+    <div class="banner-card">
+      <img src="assets/thanhetf-banner.svg" alt="ThanhETF Banner">
+    </div>
+
+    <!-- Assets Showcase Grid -->
+    <div class="assets-grid">
+      <div class="asset-box">
+        <div class="section-title" style="margin-bottom:12px; font-size:16px;">App Icon / Favicon</div>
+        <img src="assets/thanhetf-icon.svg" alt="ThanhETF Icon" style="width: 180px; height: 180px;">
+        <p style="font-size:12px; color:var(--fg-muted); font-family:var(--font-mono);">thanhetf-icon.svg</p>
+      </div>
+
+      <div class="asset-box" style="align-items: flex-start; text-align: left;">
+        <div class="section-title" style="margin-bottom:12px; font-size:16px;">Header Logo Mark</div>
+        <img src="assets/thanhetf-logo.svg" alt="ThanhETF Logo" style="max-height: 50px; width:auto; border:none; margin-bottom:20px;">
+        <h3 style="font-family:var(--font-display); font-size:18px; margin-bottom:8px;">Identity & Aesthetic Guidelines</h3>
+        <p style="color:var(--fg-2); font-size:13px; margin-bottom:12px;">
+          Faithfully matches DecodeETF's brutalist Swiss financial terminal design: sharp 0px border radius, high-contrast forest-green ink palette, monospaced tabular data figures, and the signature 2.5px primary accent underline.
+        </p>
+        <div style="display:flex; gap:10px; font-family:var(--font-mono); font-size:11px;">
+          <span style="background:var(--bg-3); border:1px solid var(--border); padding:4px 8px; color:var(--primary);">Display: Space Grotesk</span>
+          <span style="background:var(--bg-3); border:1px solid var(--border); padding:4px 8px; color:var(--fg-1);">Sans: Geist</span>
+          <span style="background:var(--bg-3); border:1px solid var(--border); padding:4px 8px; color:var(--fg-muted);">Data: Geist Mono</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extracted Exact Color Palette -->
+    <div class="section-title">Exact Color Palette (Extracted From DecodeETF)</div>
+    <div class="palette-grid">
+      <div class="swatch">
+        <div class="color-chip" style="background:#08120a;"></div>
+        <div class="swatch-title">--bg-0 (Canvas)</div>
+        <div class="swatch-val">#08120A</div>
+      </div>
+      <div class="swatch">
+        <div class="color-chip" style="background:#0d1910;"></div>
+        <div class="swatch-title">--bg-1 (Surface)</div>
+        <div class="swatch-val">#0D1910</div>
+      </div>
+      <div class="swatch">
+        <div class="color-chip" style="background:#152318;"></div>
+        <div class="swatch-title">--bg-3 (Interactive)</div>
+        <div class="swatch-val">#152318</div>
+      </div>
+      <div class="swatch">
+        <div class="color-chip" style="background:#4ebe7d;"></div>
+        <div class="swatch-title">--primary (Emerald)</div>
+        <div class="swatch-val">#4EBE7D</div>
+      </div>
+      <div class="swatch">
+        <div class="color-chip" style="background:#6cd092;"></div>
+        <div class="swatch-title">--primary-hover</div>
+        <div class="swatch-val">#6CD092</div>
+      </div>
+      <div class="swatch">
+        <div class="color-chip" style="background:#f69370;"></div>
+        <div class="swatch-title">--accent-2 (ROC/Coral)</div>
+        <div class="swatch-val">#F69370</div>
+      </div>
+      <div class="swatch">
+        <div class="color-chip" style="background:#efebe1;"></div>
+        <div class="swatch-title">--fg-1 (Off-White Ink)</div>
+        <div class="swatch-val">#EFEBE1</div>
+      </div>
+      <div class="swatch">
+        <div class="color-chip" style="background:#29372b;"></div>
+        <div class="swatch-title">--border (Grid Line)</div>
+        <div class="swatch-val">#29372B</div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>© 2026 ThanhETF Intelligence. All Canadian ETF data sourced for TSX, NEO, and Canadian marketplaces.</div>
+      <div style="font-family:var(--font-mono); font-size:11px;">DESIGN SYSTEM: BRUTALIST FINANCIAL TERMINAL</div>
+    </div>
+  </footer>
+
+</body>
+</html>

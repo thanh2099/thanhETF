@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="beaverFurDesk" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A3525" />
+      <stop offset="50%" stop-color="#382618" />
+      <stop offset="100%" stop-color="#24180E" />
+    </linearGradient>
+    <linearGradient id="screenGlow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4EBE7D" />
+      <stop offset="100%" stop-color="#0F3620" />
+    </linearGradient>
+  </defs>
+
+  <!-- Beaver Body Behind Desk -->
+  <ellipse cx="160" cy="165" rx="60" ry="60" fill="url(#beaverFurDesk)" />
+
+  <!-- Head with Analyst Glasses -->
+  <ellipse cx="160" cy="105" rx="48" ry="42" fill="url(#beaverFurDesk)" />
+
+  <!-- Ears -->
+  <circle cx="122" cy="72" r="13" fill="#382618" stroke="#24180E" stroke-width="2" />
+  <circle cx="122" cy="72" r="7" fill="#5A402A" />
+  <circle cx="198" cy="72" r="13" fill="#382618" stroke="#24180E" stroke-width="2" />
+  <circle cx="198" cy="72" r="7" fill="#5A402A" />
+
+  <!-- Snout & Buck Teeth -->
+  <ellipse cx="160" cy="118" rx="30" ry="20" fill="#6A4E34" />
+  <polygon points="155,110 165,110 160,117" fill="#18110B" />
+  <rect x="155" y="125" width="5" height="10" fill="#FAF5EA" stroke="#18110B" stroke-width="1.2" />
+  <rect x="160" y="125" width="5" height="10" fill="#FAF5EA" stroke="#18110B" stroke-width="1.2" />
+
+  <!-- Analyst Terminal Wire-Frame Glasses -->
+  <circle cx="142" cy="98" r="14" fill="none" stroke="#4EBE7D" stroke-width="2.5" />
+  <circle cx="178" cy="98" r="14" fill="none" stroke="#4EBE7D" stroke-width="2.5" />
+  <line x1="156" y1="98" x2="164" y2="98" stroke="#4EBE7D" stroke-width="2.5" />
+
+  <!-- Eyes behind glasses -->
+  <circle cx="142" cy="98" r="5" fill="#18110B" />
+  <circle cx="144" cy="96" r="2" fill="#4EBE7D" />
+  <circle cx="178" cy="98" r="5" fill="#18110B" />
+  <circle cx="180" cy="96" r="2" fill="#4EBE7D" />
+
+  <!-- Terminal Desk Surface (Dark Timber Brutalist) -->
+  <rect x="30" y="210" width="260" height="90" fill="#0D1910" stroke="#29372B" stroke-width="2" />
+  <line x1="30" y1="218" x2="290" y2="218" stroke="#4EBE7D" stroke-width="1.5" />
+
+  <!-- Technical Terminal Laptop on Desk -->
+  <g id="laptop" transform="translate(100, 160)">
+    <!-- Screen -->
+    <rect x="10" y="10" width="100" height="60" rx="2" fill="#060E08" stroke="#395542" stroke-width="2" />
+    <rect x="14" y="14" width="92" height="52" fill="url(#screenGlow)" opacity="0.8" />
+    <!-- Ticker Chart on Screen -->
+    <polyline points="20,54 36,46 48,50 62,35 76,40 88,24 100,28" fill="none" stroke="#FAF5EA" stroke-width="2" />
+    <circle cx="88" cy="24" r="2.5" fill="#FAF5EA" />
+    <!-- Keyboard Base -->
+    <polygon points="0,70 120,70 110,88 10,88" fill="#152318" stroke="#29372B" stroke-width="1.5" />
+  </g>
+
+  <!-- Paws on Keyboard -->
+  <ellipse cx="120" cy="228" rx="10" ry="7" fill="#24180E" />
+  <ellipse cx="200" cy="228" rx="10" ry="7" fill="#24180E" />
+
+  <!-- Paper Dossier on Side of Desk -->
+  <rect x="230" y="222" width="36" height="48" fill="#FAF5EA" stroke="#29372B" stroke-width="1" transform="rotate(8 248 246)" />
+  <line x1="236" y1="232" x2="258" y2="236" stroke="#0D1910" stroke-width="1.5" />
+  <line x1="238" y1="242" x2="256" y2="245" stroke="#0D1910" stroke-width="1.5" />
+</svg>

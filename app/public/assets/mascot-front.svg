@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="beaverFurFront" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A3525" />
+      <stop offset="50%" stop-color="#382618" />
+      <stop offset="100%" stop-color="#24180E" />
+    </linearGradient>
+    <linearGradient id="beaverBellyFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7B5B3E" />
+      <stop offset="100%" stop-color="#5A402A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Beaver Body Frontal -->
+  <ellipse cx="160" cy="190" rx="72" ry="78" fill="url(#beaverFurFront)" />
+  <ellipse cx="160" cy="205" rx="46" ry="52" fill="url(#beaverBellyFront)" />
+
+  <!-- Tail visible peeking right -->
+  <path d="M 220 220 C 260 230 280 260 260 280 C 240 290 210 270 200 240 Z" fill="#1C140D" stroke="#3A281A" stroke-width="2" />
+
+  <!-- Technical Terminal Vest -->
+  <path d="M 115 150 L 205 150 L 215 220 L 105 220 Z" fill="#152318" stroke="#4EBE7D" stroke-width="1.5" />
+  <rect x="122" y="162" width="28" height="14" fill="#0D1910" stroke="#4EBE7D" stroke-width="1" />
+  <text x="136" y="172" font-family="'Geist Mono', monospace" font-size="7" font-weight="bold" fill="#4EBE7D" text-anchor="middle">TSX-60</text>
+
+  <!-- Head Frontal -->
+  <ellipse cx="160" cy="115" rx="52" ry="46" fill="url(#beaverFurFront)" />
+
+  <!-- Ears -->
+  <circle cx="120" cy="78" r="14" fill="#382618" stroke="#24180E" stroke-width="2" />
+  <circle cx="120" cy="78" r="8" fill="#5A402A" />
+  <circle cx="200" cy="78" r="14" fill="#382618" stroke="#24180E" stroke-width="2" />
+  <circle cx="200" cy="78" r="8" fill="#5A402A" />
+
+  <!-- Snout / Cheeks -->
+  <ellipse cx="160" cy="130" rx="34" ry="22" fill="#6A4E34" />
+  <!-- Nose -->
+  <polygon points="154,120 166,120 160,128" fill="#18110B" />
+
+  <!-- Buck Teeth -->
+  <rect x="154" y="138" width="6" height="13" fill="#FAF5EA" stroke="#18110B" stroke-width="1.5" />
+  <rect x="160" y="138" width="6" height="13" fill="#FAF5EA" stroke="#18110B" stroke-width="1.5" />
+
+  <!-- Eyes -->
+  <circle cx="140" cy="105" r="7" fill="#18110B" />
+  <circle cx="142" cy="103" r="2.5" fill="#4EBE7D" />
+  <circle cx="180" cy="105" r="7" fill="#18110B" />
+  <circle cx="182" cy="103" r="2.5" fill="#4EBE7D" />
+
+  <!-- Clipboard in paws (Auditing ETFs) -->
+  <g id="clipboard" transform="translate(130, 160)">
+    <rect x="-25" y="10" width="60" height="75" fill="#1B1713" stroke="#4EBE7D" stroke-width="2" />
+    <rect x="-10" y="5" width="30" height="10" fill="#4EBE7D" />
+    <!-- Checklist items -->
+    <line x1="-15" y1="28" x2="25" y2="28" stroke="#FAF5EA" stroke-width="2" opacity="0.8" />
+    <line x1="-15" y1="42" x2="20" y2="42" stroke="#FAF5EA" stroke-width="2" opacity="0.8" />
+    <line x1="-15" y1="56" x2="15" y2="56" stroke="#4EBE7D" stroke-width="2" />
+    <circle cx="-19" cy="28" r="2.5" fill="#4EBE7D" />
+    <circle cx="-19" cy="42" r="2.5" fill="#4EBE7D" />
+    <circle cx="-19" cy="56" r="2.5" fill="#4EBE7D" />
+  </g>
+
+  <!-- Paws holding board -->
+  <circle cx="102" cy="195" r="12" fill="#24180E" />
+  <circle cx="168" cy="195" r="12" fill="#24180E" />
+
+  <!-- Feet -->
+  <ellipse cx="125" cy="265" rx="22" ry="10" fill="#24180E" />
+  <ellipse cx="195" cy="265" rx="22" ry="10" fill="#24180E" />
+</svg>

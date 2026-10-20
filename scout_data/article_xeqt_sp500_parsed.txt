@@ -1,0 +1,73 @@
+All articles
+May 26, 2026
+3
+min read
+You Own XEQT and Want to Add an S&P 500 Fund. Don't.
+XEQT is already ~45% US stocks, so adding VFV barely diversifies — more risk, little extra return. If you really want to tilt, here's the smarter way.
+By Knight Sukthaworn, CFA
+So you bought XEQT. Good call. For most Canadian DIY investors, you could stop reading right here and just keep buying it for the next thirty years.
+But you're still reading. Which means you've got the itch.
+Maybe you read that the US is the only market that matters. Maybe a coworker is bragging about his latest space stocks going to the moon. Maybe you just feel like you want to express a view. So you start eyeing a second ETF to bolt on.
+If you're eyeing VFV, ZSP, or XUS to "tilt toward the US," stop. Here's why, and what to do instead if you've got the itch.
+XEQT is already ~45% US stocks
+XEQT already holds roughly 45% US, dominated by Google, Nvidia, Broadcom. Big Tech and AI names are already a big slice of your XEQT, today. When you add VFV on top, you are just buying more of the same.
+Why that's a bad trade
+Two reasons: First, you get less diversification as you are now extra-heavy on US tech. Second, you take on more volatility for marginal increase in returns.
+In fact, I've run a simulation using
+Backtest Studio
+with 80% XEQT and 20% VFV. See the result for yourself.
+TLDR:
+Larger max drawdown (-20.1% vs -19.6%). And if you don't panic sell during the drawdown, very little extra returns (0.6% annualized).
+If you actually want to tilt, go where XEQT isn't
+A tilt should add something you don't already own. XEQT is broad and cap-weighted. A tilt to concentrated themes like semiconductors, uranium, energy infrastructure, copper can matter since XEQT holds bits of these as rounding errors. A focused theme ETF turns a rounding error into an actual position.
+But be honest with yourself: a theme tilt is a bet, and the cost is volatility.
+XEQT vs. XEQT + HURA (Uranium tilt) (buy-and-hold)
+Horizon
+XEQT
+(annualized return %/ max drawdown %)
+XEQT + 20% HURA
+(annualized return % / max drawdown %)
+1Y
+[30 / −8]
+[35 / −12]
+3Y
+[23 / −15]
+[26 / −20]
+5Y
+[14 / −20]
+[17 / −23]
+As you can see, the return can look exciting over a well-chosen window, but higher return comes with higher risk. That 20% HURA sleeve is what drives the bigger drawdown. On its own, HURA slid 43% from its 2024 peak to its bottom in April 2025 — your 80% XEQT base is the only reason the blended portfolio's drawdown lands around 20% instead. This table assumes you held through that. Most people don't.
+The straight answer
+"I just want to do something." Don't. Keep buying XEQT. The itch isn't a strategy.
+"I have real conviction in a theme." Tilt into the theme, not another index fund. Size it like a bet. Big enough to matter if you're right, small enough that being wrong doesn't wreck your core.
+Before you trade: drop XEQT and your potential pick into Compare ETFs to see your real overlap, then run the combo in
+Backtest Studio
+across every horizon. Read the drawdown, not just the return.
+ETF insights, straight to your inbox
+We break down what Canadian ETF investors need to know. Free. No account needed. Unsubscribe anytime.
+Subscribe
+On the record.
+This article is general financial education. It does not contain a recommendation to buy, sell, or hold any specific security and does not constitute investment advice. The author is not registered with any Canadian securities regulator.
+Related articles
+Featured
+Which Canadian Bond ETF Fits Your View on Interest Rates?
+How to use Canadian-listed bond ETFs to express a view on interest rates: rates moving a lot one way, volatile rates going nowhere, or a recession with rate cuts.
+October 18, 2026
+10
+min read
+Read more
+DRAM.TO vs DRAM: How the Canadian Version Compares to the US
+Global X's DRAM.TO and Roundhill's DRAM share a ticker and most of their stocks. See how swaps, fees, tax and size differ for Canadian investors.
+October 4, 2026
+5
+min read
+Read more
+Is there still a role for gold in a portfolio?
+Does gold still diversify a portfolio? This  analysis ignores the narratives and examines returns, drawdowns, correlations, portfolio weights and gold ETFs.
+Gold
+Asset allocation
+August 9, 2026
+16
+min read
+Read more
+Back to all articles

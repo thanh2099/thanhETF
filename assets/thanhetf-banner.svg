@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
+  <defs>
+    <!-- Background Canvas Gradient -->
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08120A" />
+      <stop offset="60%" stop-color="#0D1910" />
+      <stop offset="100%" stop-color="#050C07" />
+    </linearGradient>
+
+    <!-- Emerald Primary Gradient -->
+    <linearGradient id="emeraldBanner" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4EBE7D" />
+      <stop offset="100%" stop-color="#6CD092" />
+    </linearGradient>
+
+    <!-- Subtle Chart Area Gradient -->
+    <linearGradient id="chartAreaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4EBE7D" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#4EBE7D" stop-opacity="0.0" />
+    </linearGradient>
+
+    <!-- Subtle Technical Dot / Grid Pattern -->
+    <pattern id="bannerGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#29372B" stroke-width="0.75" stroke-opacity="0.5" />
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect width="1200" height="360" fill="url(#bannerBg)" />
+  <rect width="1200" height="360" fill="url(#bannerGrid)" />
+
+  <!-- Outer Technical Brutalist Border -->
+  <rect x="12" y="12" width="1176" height="336" fill="none" stroke="#29372B" stroke-width="2" />
+  <rect x="18" y="18" width="1164" height="324" fill="none" stroke="#152318" stroke-width="1" />
+
+  <!-- Corner Brackets -->
+  <path d="M 12 32 L 32 32 L 32 12" fill="none" stroke="#4EBE7D" stroke-width="2" />
+  <path d="M 1188 32 L 1168 32 L 1168 12" fill="none" stroke="#4EBE7D" stroke-width="2" />
+  <path d="M 12 328 L 32 328 L 32 348" fill="none" stroke="#4EBE7D" stroke-width="2" />
+  <path d="M 1188 328 L 1168 328 L 1168 348" fill="none" stroke="#4EBE7D" stroke-width="2" />
+
+  <!-- Top System Status Bar -->
+  <g id="status-bar">
+    <rect x="44" y="32" width="12" height="12" fill="#4EBE7D" />
+    <text x="64" y="42" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#4EBE7D" letter-spacing="0.1em">SYSTEM LIVE // TSX &amp; NEO DATA ACTIVE</text>
+    <text x="1136" y="42" font-family="'Geist Mono', monospace" font-size="11" fill="#919C92" text-anchor="end">TERMINAL v2.4 • CA-ETF ENGINE</text>
+    <line x1="44" y1="52" x2="1156" y2="52" stroke="#29372B" stroke-width="1" />
+  </g>
+
+  <!-- Left / Center: Brand Typography & Identity -->
+  <g id="brand-core" transform="translate(48, 80)">
+    <!-- Icon Glyph (Stepped Look-Through Prism) -->
+    <g transform="translate(0, 10)">
+      <rect x="0" y="0" width="64" height="64" fill="#152318" stroke="#4EBE7D" stroke-width="2" />
+      <line x1="32" y1="12" x2="32" y2="52" stroke="#4EBE7D" stroke-width="3" />
+      <rect x="22" y="22" width="20" height="20" fill="#4EBE7D" />
+      <!-- Decomposed sub-rectangles -->
+      <rect x="8" y="42" width="10" height="10" fill="#6CD092" />
+      <rect x="46" y="42" width="10" height="10" fill="#F69370" />
+      <line x1="22" y1="32" x2="13" y2="42" stroke="#4EBE7D" stroke-width="1.5" stroke-dasharray="2,2" />
+      <line x1="42" y1="32" x2="51" y2="42" stroke="#4EBE7D" stroke-width="1.5" stroke-dasharray="2,2" />
+    </g>
+
+    <!-- Main Title -->
+    <text x="84" y="52" font-family="'Space Grotesk', system-ui, sans-serif" font-size="52" font-weight="800" letter-spacing="-0.03em">
+      <tspan fill="#EFEBE1">Thanh</tspan><tspan fill="#4EBE7D">ETF</tspan>
+    </text>
+
+    <!-- Signature Decode Underline -->
+    <rect x="86" y="66" width="124" height="4" fill="#4EBE7D" />
+
+    <!-- Tagline & Description -->
+    <text x="86" y="102" font-family="'Space Grotesk', system-ui, sans-serif" font-size="16" font-weight="600" fill="#EFEBE1" letter-spacing="0.02em">
+      CANADIAN ETF LOOK-THROUGH &amp; PORTFOLIO INTELLIGENCE
+    </text>
+    <text x="86" y="126" font-family="'Geist Mono', monospace" font-size="13" fill="#919C92">
+      Decode fund-of-funds, reveal true equity overlap, backtest DCA portfolios &amp; optimize distributions.
+    </text>
+
+    <!-- Feature Pills / Terminal Tags -->
+    <g transform="translate(86, 150)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="138" height="28" fill="#152318" stroke="#395542" stroke-width="1" />
+      <text x="69" y="18" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#4EBE7D" text-anchor="middle">1,400+ CANADIAN ETFS</text>
+
+      <!-- Tag 2 -->
+      <rect x="146" y="0" width="156" height="28" fill="#152318" stroke="#395542" stroke-width="1" />
+      <text x="224" y="18" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#EFEBE1" text-anchor="middle">DEEP LOOK-THROUGH</text>
+
+      <!-- Tag 3 -->
+      <rect x="310" y="0" width="134" height="28" fill="#152318" stroke="#395542" stroke-width="1" />
+      <text x="377" y="18" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#EFEBE1" text-anchor="middle">OVERLAP ENGINE</text>
+
+      <!-- Tag 4 -->
+      <rect x="452" y="0" width="144" height="28" fill="#152318" stroke="#395542" stroke-width="1" />
+      <text x="524" y="18" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#EFEBE1" text-anchor="middle">DCA SIMULATOR</text>
+    </g>
+  </g>
+
+  <!-- Right: Look-Through Decomposition & Interactive Performance Widget -->
+  <g id="lookthrough-visual" transform="translate(740, 75)">
+    <!-- Container Panel -->
+    <rect x="0" y="0" width="416" height="236" fill="#0D1910" stroke="#29372B" stroke-width="1.5" />
+    
+    <!-- Widget Header -->
+    <rect x="0" y="0" width="416" height="32" fill="#152318" />
+    <text x="14" y="21" font-family="'Geist Mono', monospace" font-size="11" font-weight="700" fill="#4EBE7D">LOOK-THROUGH DISSECTION // SAMPLE: XEQT.TO</text>
+    <circle cx="396" cy="16" r="4" fill="#4EBE7D" />
+
+    <!-- Fund Wrapper Box -->
+    <rect x="16" y="46" width="94" height="42" fill="#193825" stroke="#4EBE7D" stroke-width="1" />
+    <text x="63" y="66" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="700" fill="#EFEBE1" text-anchor="middle">XEQT.TO</text>
+    <text x="63" y="80" font-family="'Geist Mono', monospace" font-size="9" fill="#919C92" text-anchor="middle">MER: 0.20%</text>
+
+    <!-- Dissolution Ray Arrows to Underlying Equities -->
+    <path d="M 110 67 L 160 67" stroke="#4EBE7D" stroke-width="1.5" stroke-dasharray="3,3" />
+    
+    <!-- Underlying Holdings Dissected List -->
+    <!-- Item 1: Royal Bank -->
+    <g transform="translate(160, 42)">
+      <rect x="0" y="0" width="240" height="24" fill="#152318" stroke="#29372B" stroke-width="1" />
+      <text x="10" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#EFEBE1">RY • Royal Bank</text>
+      <text x="230" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="700" fill="#4EBE7D" text-anchor="end">3.42%</text>
+    </g>
+
+    <!-- Item 2: Apple -->
+    <g transform="translate(160, 70)">
+      <rect x="0" y="0" width="240" height="24" fill="#152318" stroke="#29372B" stroke-width="1" />
+      <text x="10" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#EFEBE1">AAPL • Apple Inc</text>
+      <text x="230" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="700" fill="#4EBE7D" text-anchor="end">2.91%</text>
+    </g>
+
+    <!-- Item 3: Microsoft -->
+    <g transform="translate(160, 98)">
+      <rect x="0" y="0" width="240" height="24" fill="#152318" stroke="#29372B" stroke-width="1" />
+      <text x="10" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#EFEBE1">MSFT • Microsoft</text>
+      <text x="230" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="700" fill="#4EBE7D" text-anchor="end">2.75%</text>
+    </g>
+
+    <!-- Item 4: TD Bank -->
+    <g transform="translate(160, 126)">
+      <rect x="0" y="0" width="240" height="24" fill="#152318" stroke="#29372B" stroke-width="1" />
+      <text x="10" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="600" fill="#EFEBE1">TD • Toronto-Dominion</text>
+      <text x="230" y="16" font-family="'Geist Mono', monospace" font-size="11" font-weight="700" fill="#4EBE7D" text-anchor="end">2.18%</text>
+    </g>
+
+    <!-- Mini Performance Chart at Bottom of Widget -->
+    <g transform="translate(16, 160)">
+      <line x1="0" y1="60" x2="384" y2="60" stroke="#29372B" stroke-width="1" />
+      
+      <!-- Chart Area -->
+      <polygon points="0,55 40,48 90,52 140,36 190,42 240,28 290,20 340,12 384,6 384,60 0,60" fill="url(#chartAreaGrad)" />
+      
+      <!-- Chart Line -->
+      <polyline points="0,55 40,48 90,52 140,36 190,42 240,28 290,20 340,12 384,6" fill="none" stroke="#4EBE7D" stroke-width="2" />
+      
+      <!-- End Dot -->
+      <circle cx="384" cy="6" r="3.5" fill="#6CD092" stroke="#08120A" stroke-width="1.5" />
+
+      <!-- Chart Metadata -->
+      <text x="4" y="24" font-family="'Geist Mono', monospace" font-size="10" fill="#919C92">CAGR +11.4%</text>
+      <text x="380" y="24" font-family="'Geist Mono', monospace" font-size="10" font-weight="700" fill="#6CD092" text-anchor="end">MAX SHARPE 1.28</text>
+    </g>
+  </g>
+
+  <!-- Bottom Technical Coordinate Footer Bar -->
+  <line x1="32" y1="328" x2="1168" y2="328" stroke="#1D2A1F" stroke-width="1" />
+  <text x="48" y="342" font-family="'Geist Mono', monospace" font-size="9" fill="#727E74">COORDINATES: 43.6532° N, 79.3832° W (TORONTO TSX) // DATA STREAM: LIVE L1/L2</text>
+  <text x="1152" y="342" font-family="'Geist Mono', monospace" font-size="9" fill="#727E74" text-anchor="end">POWERED BY THANH ETF INTELLIGENCE ENGINE</text>
+</svg>

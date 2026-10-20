@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ThanhETF / DecodeETF Master Specification Prompt (v2.4)</title>
+  <style>
+    :root {
+      --bg-0: #f1e7d2;
+      --bg-1: #f9f1e2;
+      --bg-card: #fffbf4;
+      --fg-1: #152318;
+      --fg-muted: #505b52;
+      --fg-faint: #6a756b;
+      --primary: #156f41;
+      --primary-hover: #005d32;
+      --border: #dfd7c6;
+      --border-faint: #e7e1d4;
+      --code-bg: #e8ddc5;
+      --cyan: #0891b2;
+      --tag-bg: #e2d7c0;
+    }
+
+    html.dark {
+      --bg-0: #08120a;
+      --bg-1: #0d1910;
+      --bg-card: #121e14;
+      --fg-1: #efebe1;
+      --fg-muted: #919c92;
+      --fg-faint: #8a968c;
+      --primary: #4ebe7d;
+      --primary-hover: #6cd092;
+      --border: #29372b;
+      --border-faint: #202d22;
+      --code-bg: #152318;
+      --cyan: #00F0FF;
+      --tag-bg: #1d2a1f;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-0);
+      color: var(--fg-1);
+      line-height: 1.6;
+      overflow-x: hidden;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px 20px 80px 20px;
+    }
+
+    /* Sticky Header Control Bar */
+    .top-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: var(--bg-1);
+      border-bottom: 2px solid var(--border);
+      padding: 12px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-family: monospace;
+      font-weight: 800;
+      font-size: 18px;
+    }
+
+    .brand-accent {
+      color: var(--primary);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      font-size: 11px;
+      font-family: monospace;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background-color: var(--tag-bg);
+      border: 1px solid var(--border);
+      color: var(--primary);
+      border-radius: 2px;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 7px 14px;
+      font-size: 12px;
+      font-family: monospace;
+      font-weight: 700;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: 1px solid var(--border);
+      background-color: var(--bg-card);
+      color: var(--fg-1);
+      border-radius: 2px;
+      transition: all 0.15s ease;
+    }
+
+    .btn:hover {
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    .btn-primary {
+      background-color: var(--primary);
+      color: var(--bg-0);
+      border-color: var(--primary);
+    }
+
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+    }
+
+    /* Toast Notification */
+    #toast {
+      display: none;
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background-color: var(--primary);
+      color: var(--bg-0);
+      font-family: monospace;
+      font-size: 13px;
+      font-weight: bold;
+      padding: 12px 20px;
+      border-radius: 2px;
+      z-index: 1000;
+      box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+
+    /* Hero Banner */
+    .hero {
+      background-color: var(--bg-1);
+      border: 1px solid var(--border);
+      padding: 32px 24px;
+      margin-top: 24px;
+      margin-bottom: 24px;
+      border-left: 4px solid var(--primary);
+    }
+
+    .hero h1 {
+      font-size: 26px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .hero p {
+      color: var(--fg-muted);
+      font-size: 14px;
+      max-width: 800px;
+    }
+
+    /* Specification Box */
+    .spec-card {
+      background-color: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 24px;
+      margin-bottom: 24px;
+    }
+
+    .spec-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--border-faint);
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+    }
+
+    .spec-card-title {
+      font-size: 16px;
+      font-weight: 700;
+      font-family: monospace;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--primary);
+    }
+
+    /* Prompt Text Container */
+    .prompt-box {
+      background-color: var(--code-bg);
+      border: 1px solid var(--border);
+      padding: 20px;
+      font-family: 'Geist Mono', 'SF Mono', Menlo, Consolas, monospace;
+      font-size: 13px;
+      line-height: 1.65;
+      color: var(--fg-1);
+      white-space: pre-wrap;
+      word-break: break-word;
+      overflow-wrap: break-word;
+      user-select: text;
+    }
+
+    /* Table styling for specs */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 12px;
+      font-family: monospace;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 8px 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: var(--bg-1);
+      color: var(--primary);
+    }
+
+    /* Responsive */
+    @media (max-width: 640px) {
+      .hero h1 { font-size: 20px; }
+      .top-bar { flex-direction: column; align-items: stretch; }
+      .controls { justify-content: space-between; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Controls -->
+  <div class="top-bar">
+    <div class="brand">
+      <span>Thanh<span class="brand-accent">ETF</span></span>
+      <span class="badge">Master Replication Spec · v2.4</span>
+    </div>
+    <div class="controls">
+      <button class="btn" id="themeBtn" onclick="toggleTheme()">
+        <span id="themeIcon">☀️</span> <span id="themeText">Light Theme</span>
+      </button>
+      <button class="btn btn-primary" onclick="copyPrompt()">
+        📋 Copy Full Prompt
+      </button>
+    </div>
+  </div>
+
+  <div class="container">
+    <!-- Hero Box -->
+    <div class="hero">
+      <h1>DecodeETF / ThanhETF Master Duplication Prompt</h1>
+      <p>
+        This document contains the complete, rigorous specification prompt engineered to allow any advanced LLM model
+        (GPT-4o, Claude 3.5 Sonnet, Claude Opus, Gemini 1.5 Pro, DeepSeek, etc.) to recreate the entire <b>ThanhETF</b>
+        platform from scratch, including its flagship <b>"ALL HOLDINGS & LOOK-THROUGH WEIGHTS"</b> engine, 7-part report cards,
+        weighted overlap calculations, and CRA T3 tax slip dissolution.
+      </p>
+    </div>
+
+    <!-- Instructions Card -->
+    <div class="spec-card">
+      <div class="spec-card-header">
+        <span class="spec-card-title">How To Use This Prompt</span>
+        <span class="badge">Universal LLM Prompt</span>
+      </div>
+      <p style="font-size: 13px; color: var(--fg-muted); margin-bottom: 12px;">
+        Click <b>"Copy Full Prompt"</b> above and paste it directly into your AI assistant session. The prompt instructs the model
+        on the exact tech stack, Swiss brutalist terminal design system, exact layout widths and heights, color tokens,
+        reactive calculations, and data structures.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>Module</th>
+            <th>Dimension / Layout Spec</th>
+            <th>Primary Features & Interactivity</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><b>Masthead Header</b></td>
+            <td>104px total height (56px Tier 1 + 48px Tier 2)</td>
+            <td>Cmd+K global search modal across 1,144+ ETFs, theme switcher, 8 toolkit shortcuts.</td>
+          </tr>
+          <tr>
+            <td><b>Market Ticker</b></td>
+            <td>32px height, 107.5s continuous loop</td>
+            <td>43 live Canadian equity, commodity, and crypto sectors with hover pause.</td>
+          </tr>
+          <tr>
+            <td><b>ETF Detail View</b></td>
+            <td>12-column grid (3-col sticky nav + 9-col main)</td>
+            <td>7 modular tabs: Overview, Performance, Holdings, All Holdings, Tax, Similar, Facts.</td>
+          </tr>
+          <tr>
+            <td><b>All Holdings Engine</b></td>
+            <td>Full width within 9-col container</td>
+            <td>4-card KPI strip, multi-field live search, sector dropdown, CSV/JSON export, $10k dollar simulator.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Master Prompt Code Container -->
+    <div class="spec-card">
+      <div class="spec-card-header">
+        <span class="spec-card-title">Full Master Prompt Text</span>
+        <button class="btn" onclick="copyPrompt()">Copy All</button>
+      </div>
+      <div class="prompt-box" id="promptText">### SYSTEM ROLE & INSTRUCTION:
+You are an elite Senior Full-Stack Web Developer, UI/UX Designer, and Quantitative Software Engineer specializing in institutional financial analytics terminals. Your task is to build a pixel-perfect, production-grade clone of DecodeETF called "ThanhETF".
+
+The platform must provide deep, institutional look-through analytics for Canadian-listed ETFs (TSX & Cboe Canada) and US twin benchmarks with 100% UNRESTRICTED, FREE ACCESS (ZERO PAYWALLS, NO LOGIN GATES, NO BLURRED ROWS).
+
+---
+
+### CORE PLATFORM ARCHITECTURE & TECH STACK:
+1. Framework: React 18+ with TypeScript (Vite bundler, strict mode).
+2. Styling: Tailwind CSS v4 / v3.4+ configured with CSS Custom Property variables and Swiss Brutalist / Bloomberg Terminal aesthetic.
+3. Icons: Lucide-react (Search, Filter, ArrowUpDown, Download, Copy, Layers, PieChart, DollarSign, ExternalLink, ShieldCheck, Check, X, etc.).
+4. Data Persistence & Routing: URL Hash-based deep routing (`#home`, `#etf/:symbol/:section`, `#compare`, `#rate`, `#reverse`, `#yield`, `#covered_calls`, `#new_etfs`, `#coverage`, `#articles`).
+5. Fonts:
+   - Headings & Titles: 'Space Grotesk', system-ui, sans-serif
+   - Data Tables, Numbers & Tickers: 'Geist Mono', 'SF Mono', Menlo, Consolas, monospace
+   - Prose & Interface: 'Geist', ui-sans-serif, system-ui, sans-serif
+
+---
+
+### COLOR SCHEME & DESIGN SYSTEM (EXACT TOKENS):
+The application supports persistent Dark and Light themes with high-contrast, contrast-verified tokens:
+
+#### Dark Theme (Deep Forest Terminal - Default):
+- Background Primary (--bg-0): #08120a (Deepest obsidian forest)
+- Background Surface (--bg-1): #0d1910
+- Background Card/Row (--bg-2): #121e14
+- Background Hover (--bg-3): #152318
+- Background Elevated (--bg-4): #1d2a1f
+- Foreground Primary (--fg-1): #efebe1 (Warm high-contrast terminal ivory)
+- Foreground Secondary (--fg-2): #c2bdb4
+- Foreground Muted (--fg-muted): #919c92
+- Foreground Faint (--fg-faint): #8a968c
+- Primary Accent (--primary): #4ebe7d (Terminal Emerald Green)
+- Primary Accent Hover (--primary-hover): #6cd092
+- Primary Accent Muted (--primary-muted): rgba(78, 190, 125, 0.16)
+- Primary Subtle (--primary-subtle): #0f3620
+- Border Primary (--border): #29372b (Dark slate green)
+- Border Faint (--border-faint): #202d22
+- Cyan Accent: #00F0FF / rgb(34, 211, 238) (Used for proportion weight bars and concentration badges)
+- Positive Return (--ret-up-fg / bg): #77e5a2 on #0c3d22
+- Negative Return (--ret-down-fg / bg): #ff9e96 on #462220
+
+#### Light Theme (Parchment & Forest):
+- Background Primary (--bg-0): #f1e7d2 (Refined financial parchment)
+- Background Surface (--bg-1): #f9f1e2
+- Background Card/Row (--bg-2): #f5ecda
+- Background Elevated (--bg-3): #fffbf4
+- Foreground Primary (--fg-1): #152318 (Deep forest black)
+- Foreground Muted (--fg-muted): #505b52
+- Foreground Faint (--fg-faint): #6a756b
+- Primary Accent (--primary): #156f41 (Deep Forest Green)
+- Primary Accent Hover (--primary-hover): #005d32
+- Border Primary (--border): #dfd7c6
+- Border Faint (--border-faint): #e7e1d4
+
+---
+
+### GLOBAL MASTHEAD & NAVIGATION SPECIFICATIONS:
+- Container Width: 1280px / 1440px (`max-w-7xl mx-auto px-4 sm:px-6 lg:px-14`).
+- Masthead Structure: 2-Tier Sticky Header (Total height: 104px):
+  - Tier 1 (56px):
+    * Brand Logo: "Decode" / "Thanh" in `--fg-1` + "ETF" in `--primary` (28px font size, -0.02em letter spacing, with a 2px horizontal accent line beneath).
+    * Global Search Bar: Triggered by Cmd+K / Ctrl+K, opens modal searching across 1,144+ TSX/Cboe listed ETFs.
+    * Theme Switcher: Toggles Dark / Light mode with localStorage sync.
+    * Research link & Start Free / Status indicator.
+  - Tier 2 (48px):
+    * Horizontal navigation links: Browse ETFs, Major Indices, Compare Overlap, Rate My Portfolio, Yield Hub, Covered Calls, New Listings, Research, and "The Toolkit" dropdown (Major Index Hubs, Tax & Norbert's Gambit, Look-Through Coverage Matrix, Reverse Stock Lookup, Exposure Builder, Backtest Studio, New Canadian Listings, Market Research).
+- Market Pulse Ticker (32px):
+  * Continuous horizontal linear scrolling ticker (`ticker-scroll 107.5s linear infinite`) with edge gradient fade masks.
+  * Displays 43 continuous Canadian and global equity sectors, commodities, and crypto with weekly return percentages (Canadian Oil & Gas +6.3%, Financials +1.2%, Clean Energy -6.2%, Semiconductors -9.9%, Space -11.6%, Bitcoin -1.8%, Gold -2.2%). Hover pauses animation.
+
+---
+
+### ETF DETAIL VIEW (FLAGSHIP REPORT CARD):
+URL Route: `#etf/:symbol/:section` (Defaults to `overview` or `performance`).
+
+#### 1. Header Bar:
+- Breadcrumb navigation: "Canadian ETFs <symbol>" with Back button.
+- Header quick search box for switching ETFs instantly.
+- Badges: Provider name (e.g., RBC iShares, Hamilton ETFs, Vanguard Canada), Asset Class (Equity, Covered Call, Multi-Asset), Hedging tag (CAD-hedged or CAD-unhedged).
+- Big Financial Price Card (Right Column):
+  * Last close price in CAD (e.g., "CA$67.05").
+  * Day change dollar and percentage with semantic color (e.g., "-CA$0.95 (-1.40%) vs prior close").
+  * YTD total return banner (+16.11% YTD total return).
+
+#### 2. Layout Grid:
+- Two-column responsive layout:
+  * Left Navigation Sidebar (`lg:col-span-3`, sticky at `top-6`, 25% width).
+  * Right Main Content Container (`lg:col-span-9`, 75% width, `space-y-10`).
+- Sidebar Menu Items:
+  * 01 Overview (Report card, key findings, quick stats)
+  * 02 Performance & risk (Inception returns, benchmark overlays, volatility vs Sharpe)
+  * 03 Holdings summary (Narrative fund structure, top 10 proportion bars, sector & geography ribbons, construction tree)
+  * 04 All holdings & weights (THE FLAGSHIP UNFILTERED CONSTITUENT ENGINE)
+  * 05 Income & tax (CRA T3 tax slip character: Eligible dividends, ROC, Foreign income, Phantom distributions)
+  * 06 Similar ETFs (Side-by-side comparison matrix with MER, Sharpe, Size)
+  * 07 Fund facts (Inception date, CUSIP, exchange, distribution frequency, replication)
+
+---
+
+### THE "ALL HOLDINGS & LOOK-THROUGH WEIGHTS" ENGINE (SECTION 04):
+The centerpiece institutional feature providing complete transparency into every single constituent holding of the ETF.
+
+#### 1. Header & Zero-Paywall Banner:
+- Section Tag: `ALL CONSTITUENT HOLDINGS` in green monospace.
+- Headline: `All Holdings & Look-Through Weights` (28px font-display bold).
+- Subtext: Complete, unfiltered transparency into every underlying constituent holding inside the ETF.
+- Badge: `100% UNLOCKED · ZERO PAYWALLS` (emerald border, monospace).
+
+#### 2. 4-Card KPI Strip:
+A responsive 4-column summary grid (`grid grid-cols-2 sm:grid-cols-4 gap-3`):
+- Card 1 (Total Holdings): Total count of underlying positions (e.g., 503 for S&P 500, 8,184 for XEQT, 10 for HMAX). Subtext displays number matching active search filter.
+- Card 2 (Top 10 Concentration): Summed percentage of top 10 assets (in cyan `#00F0FF`, e.g., 39.4% for XUS.TO, 100.0% for HMAX.TO).
+- Card 3 (Max Single Position): Largest holding percentage and asset name (in emerald green, e.g., "8.5% Nvidia" for XUS.TO, "24.6% Royal Bank" for HMAX.TO).
+- Card 4 (Filtered Weight & Dollar Impact): Dynamic sum of all visible/filtered holdings, with real-time dollar impact on the selected portfolio size (e.g., "$6,890 on $10,000").
+
+#### 3. Interactive Toolbar & Controls:
+- Search Input: Real-time multi-attribute search across ticker, company name, sector, and country. Includes clear ('X') button.
+- Sector Filter Dropdown: Dynamically enumerates all unique sectors present in the fund with count tags (e.g., "Technology (18)", "Financials (12)").
+- Multi-Column Sort:
+  * Weight: High → Low (Default)
+  * Weight: Low → High
+  * Company Name: A → Z
+  * Ticker Symbol: A → Z
+- View Mode Toggle:
+  * Table View: Institutional tabular layout.
+  * Bars View: Full-width horizontal cyan proportion bars highlighting relative weighting.
+- Export Buttons:
+  * CSV Download: Generates and downloads RFC-4180 compliant CSV file (`[SYMBOL]_all_holdings.csv`).
+  * JSON Copy: Copies clean JSON payload to system clipboard with 2-second confirmation checkmark.
+- Dynamic Capital Dollar Value Selector:
+  * Buttons: $5k, $10k, $25k, $50k, $100k (with custom numeric support).
+  * Automatically calculates exact dollar investment per stock: `dollarValue = (holding.weight / 100) * customInvestment`.
+
+#### 4. Institutional Table Structure & Columns:
+- Column 1 (#): Numeric rank index (1 to N).
+- Column 2 (Asset / Company):
+  * Ticker badge: Monospace green pill (clickable to trigger deep-link resolution).
+  * Company name: Bold font-display text.
+  * Subtitle: Full official legal company name.
+- Column 3 (Sector): Color-coded semantic sector pill (Technology in Cyan, Financials in Blue, Energy in Amber, Healthcare in Emerald, Utilities in Purple, etc.).
+- Column 4 (Country): ISO 2-letter country code + full nation name.
+- Column 5 (Via Sleeve / Route): Indicates replication vehicle (e.g., "Direct Physical", "via XTOT.TO", "via SMAX.TO").
+- Column 6 (Weight & Proportion Bar):
+  * Proportion bar: Cyan background (`#00F0FF`) with formula `width: Math.min(100, holding.weight * 14)%`.
+  * Percentage: Bold font-mono percentage formatted to 2 decimal places (e.g., "8.50%").
+  * Dollar allocation: Dynamic calculated dollar amount (e.g., "$850.00").
+
+#### 5. Pagination Controls:
+- Selector for rows per page: 25, 50, 100, All.
+- Previous / Next buttons with page indicator: `Showing 1 to 50 of 503 holdings`.
+
+---
+
+### LOOK-THROUGH DISSOLUTION ALGORITHM (MATHEMATICAL SPECIFICATION):
+1. Fund-of-Funds Decomposition:
+   - For funds that hold underlying ETFs (e.g. `XEQT.TO` holding `XTOT` 45%, `XIC` 25%, `XEF` 25%, `XEC` 5%), the engine multiplies sleeve weights by underlying stock weights:
+     `EffectiveWeight(Stock_j) = sum_{k} (SleeveWeight_k * StockWeight_in_Sleeve_{k,j})`
+2. Leverage Accounting:
+   - For leveraged funds (e.g. `HYLD.TO` with 1.25x leverage), constituent weights reflect gross notional exposure and sum to >100% (e.g., ~125%). Leverage borrowing costs and option overlays are stated separately.
+3. Weighted Overlap Metric:
+   - Compares two arbitrary funds A and B using the minimum weight intersection formula:
+     `Overlap(A, B) = sum_{i} min(Weight_{A,i}, Weight_{B,i})`
+4. CRA T3 Tax Character Breakdown:
+   - Box 49: Eligible Canadian Dividends (eligible for Canadian Dividend Tax Credit).
+   - Box 42: Return of Capital (ROC) - Non-taxable in current year, reduces investor's Adjusted Cost Base (ACB).
+   - Box 25: Foreign Non-Business Income (subject to foreign withholding tax).
+   - Capital Gains: 50% inclusion rate taxable capital gains.
+   - Phantom Reinvested Distributions: Non-cash capital gain distributions that increase the investor's ACB to prevent double taxation on future disposition.
+
+---
+
+### COMPLETE DATASET COVERAGE (SAMPLE ASSETS):
+Ensure the following funds are fully modeled with audited constituents:
+1. `XUS.TO` (iShares Core S&P 500 Index ETF): 60+ S&P 500 stocks (NVDA 8.5%, AAPL 7.3%, MSFT 5.8%, AMZN 3.8%, GOOGL 3.1%, AVGO 2.7%, META 2.4%, TSLA 1.6%, etc.). MER: 0.09%, Yield: 1.10%.
+2. `XEQT.TO` (iShares Core Equity ETF Portfolio): 45+ look-through equities across US, Canada, EAFE, and EM (NVDA 3.5%, AAPL 3.0%, MSFT 2.4%, RY.TO 1.9%, AMZN 1.6%, SHOP.TO 1.5%, TD.TO 1.4%, etc.). MER: 0.20%, Yield: 1.60%.
+3. `HMAX.TO` (Hamilton Canadian Financials Yield Maximizer): 10 Canadian financial stocks (RY.TO 24.6%, TD.TO 17.5%, BMO.TO 10.5%, BNS.TO 10.0%, CM.TO 9.0%, BN.TO 8.0%, MFC.TO 6.3%, GWO.TO 5.1%, NA.TO 5.1%, SLF.TO 3.9%). Covered call overlay, MER: 0.76%, Yield: 11.60%, 2025 Tax: 16.9% eligible dividends, 83.1% ROC.
+4. `HYLD.TO` (Hamilton Enhanced U.S. Covered Call ETF): 9 underlying ETF sleeves + 25 look-through stocks with 1.25x leverage. MER: 0.83%, Yield: 11.50%.
+5. New TSX Listings: `AAPP.TO` ($20.49), `AMZP.TO` ($19.98), `GOOP.TO` ($19.42), `NVDP.TO` ($18.59), `TSLP.TO` ($18.91), `SPCP.TO` ($17.59), `XBAI.TO` ($35.09).
+</div>
+    </div>
+  </div>
+
+  <div id="toast">✓ Prompt copied to clipboard!</div>
+
+  <script>
+    // Theme toggle logic with localStorage persistence
+    function toggleTheme() {
+      const html = document.documentElement;
+      const isDark = html.classList.contains('dark');
+      if (isDark) {
+        html.classList.remove('dark');
+        localStorage.setItem('thanhetf-theme', 'light');
+        document.getElementById('themeIcon').innerText = '🌙';
+        document.getElementById('themeText').innerText = 'Dark Theme';
+      } else {
+        html.classList.add('dark');
+        localStorage.setItem('thanhetf-theme', 'dark');
+        document.getElementById('themeIcon').innerText = '☀️';
+        document.getElementById('themeText').innerText = 'Light Theme';
+      }
+    }
+
+    // Initialize saved theme
+    (function initTheme() {
+      const saved = localStorage.getItem('thanhetf-theme');
+      if (saved === 'light') {
+        document.documentElement.classList.remove('dark');
+        document.getElementById('themeIcon').innerText = '🌙';
+        document.getElementById('themeText').innerText = 'Dark Theme';
+      } else {
+        document.documentElement.classList.add('dark');
+        document.getElementById('themeIcon').innerText = '☀️';
+        document.getElementById('themeText').innerText = 'Light Theme';
+      }
+    })();
+
+    // Copy to clipboard with toast notification
+    function copyPrompt() {
+      const text = document.getElementById('promptText').innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        const toast = document.getElementById('toast');
+        toast.style.display = 'block';
+        setTimeout(() => {
+          toast.style.display = 'none';
+        }, 2500);
+      }).catch(err => {
+        console.error('Failed to copy: ', err);
+      });
+    }
+  </script>
+</body>
+</html>

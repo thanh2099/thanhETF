@@ -1,0 +1,91 @@
+[P] The gyration in global interest rates has once again surfaced in business news headlines. In this DecodeETF Brief, I look at how you can tactically use Canadian-listed bond ETFs to express your view on future interest rates. I will start with a bond primer before discussing options for different tactical views. For the more experienced, skip the primer section.
+
+[P] Section 1
+
+[H2] Bond ETF Primers
+
+[P] There are three main risks you take on when you buy a bond ETF: interest rate (duration) risk, credit risk and currency risk. How much of each an ETF carries is what makes one bond ETF behave differently from another, so it is worth getting these straight before looking at the tactical views.
+
+[H3] Interest Rate Risk
+
+[P] Interest rate/duration risk only affects you if you have to sell your bond holdings before maturity, because the price of your bond changes with interest rates. If you hold an individual bond to maturity, you will get the promised interest rate, or if you buy a bond from the market after issuance, you will get the yield to maturity (the yearly return you earn if you buy the bond at today's price, collect every interest payment, and get the face value back at maturity. It counts both the interest and the gain or loss from paying less or more than face value). Bond ETFs never mature though, since they keep selling old bonds and buying new ones, so with an ETF you always carry this risk.
+
+[P] The price of your bond moves because you have to compete with other bonds in the market. If you bought your bond when the interest rate was 5% and today's interest rate is 6%, then you have to discount your bond so that the next buyer can earn 6%, otherwise the buyer could just buy other bonds offering 6% instead.
+
+[P] A proxy for the impact of an interest rate change on the value of your bond fund is duration. Duration is an approximation of how much your bond fund's price will change for an interest rate change. A fund with a duration of 6.5 years will decline by approximately 6.5% for a 1 percentage point increase in interest rates. It is only an approximation because the 6.5% assumes that interest rates increase by 1 percentage point across all lending horizons. This is generally not how interest rates move in practice. Shorter-term interest rates are more sensitive to central bank policies, while longer-term interest rates are driven more by macroeconomic, fiscal and confidence factors, and the factors affecting them could move short- and long-term rates in opposite directions.
+
+[H3] Credit Risk
+
+[P] This is the risk that the entities that issue the bonds are unable to fully pay future interest and principal repayments.
+
+[P] For bonds issued by corporations, credit risk usually materializes when the business is no longer generating enough cash flow to pay its debt.
+
+[P] Governments that issue bonds in their own currency usually do not have credit risk since they control the currency, i.e. they can print more local currency. Governments that issue bonds in a foreign currency (e.g. emerging market bonds in USD) or in a currency they do not control (e.g. French bonds issued in euros), however, could have trouble accessing that currency to pay the bonds, either because of a deteriorating fiscal situation or, in some cases, sanctions from the country of the currency.
+
+[P] A proxy for credit risk is the credit rating issued by credit rating agencies such as Standard & Poor's, Moody's and Fitch. Generally, we divide creditworthiness into two broad categories: investment grade and junk. Rating conventions differ among rating agencies, but the broad consensus is that investment grade means BBB- or better at S&P and Fitch (Baa3 or better at Moody's), and anything below that is junk. The agencies do not assign a fixed probability of default to each grade. S&P, for example, describes its ratings as relative rankings of creditworthiness, and its studies show default rates rise as ratings fall. In practice, the gap is large: Moody’s data on global companies from 1970 to 2022 shows about 0.9% of investment grade companies defaulted within five years (2.2% within ten), compared with about 18.7% of junk-rated companies (29.8% within ten).
+
+[H3] Currency Risk
+
+[P] If your expenses are in Canadian dollars and you hold bonds in US dollars, euros or other currencies, then movements in those currencies against the Canadian dollar will impact your return. Under normal circumstances, currencies of countries with interest rates dropping faster than Canada's tend to depreciate against the Canadian dollar, denting your returns in Canadian dollars. Currencies can also move down as interest rates go up, but this tends to be for countries suffering capital flight.
+
+[P] SEction 2
+
+[H2] Expressing Your View on Interest Rates
+
+[P] A directional bet, volatile rates going nowhere, a recession with rate cuts, and a global growth boom? For each view, I look at which of the three risks above you want to take on and, where a bond ETF fits the view, list the Canadian-listed options with how they did through recent rate moves.
+
+[P] Everything below is about tactical investing, with a holding horizon of months to a couple of years, well short of maturity. Long-term investing in bonds is a different topic. Over a short horizon, your result comes mostly from how interest rates move, since a year or two of interest is small next to the price swings.
+
+[H3] Directional Interest Rate Bet
+
+[P] You have a view that something structural in the global economy will cause interest rates to shift directionally. This could be, for instance, a global productivity boom (lowering interest rates across the board), de-globalization (higher interest rates across the board), a population boom (higher interest rates across the board), global conflicts and great power rivalry (higher interest rates across the board), or fiscal largesse due to higher healthcare spending for aging populations (higher interest rates across the board).
+
+[P] Taking a directional interest rate bet is generally taking duration risk, i.e. buying or selling bond funds with the highest duration. A high-duration fund gains if interest rates go down; if you expect rates to go up, an inverse fund such as STLT gains instead. Taking this bet using a US government bond ETF would probably be the cleanest way to take on duration risk, for two reasons: 1) US government bonds carry very low credit risk (rated AA+ / Aa1) and are the world's most traded government bonds, so you won't be taking unintentional credit risk, which you might get from using corporate bond ETFs and/or emerging market bond ETFs; 2) the US is the global interest rate benchmark, with the rest of the world largely pricing relative to the US, so you are betting at the source. To avoid most of the currency risk, you can take this bet using CAD-hedged US bond ETFs.
+
+[P] Below are the CAD-hedged US government bond ETFs with the highest duration both the plain version and leveraged version. To see the live list of these bonds, you can go to Yield Hub to filter the list of CAD-hedged bond ETFs ranked by maturity.
+
+[P] Figure 1
+
+[P] XTLH 's total return in the two most recent times the US 10-year yield moved by 100 basis points. Data as of October 17, 2026. Leveraged funds reset daily, so over longer periods their return can be far from 3x the index.
+
+[H3] Volatile Interest Rates, But Going Nowhere
+
+[P] You have a view that current interest rate movements are largely noise driven by uncertainty, with no structural change in the global economy behind them. Market interest rates could go up 50 bps one week and down 50 bps the next, but net net we are largely violently treading water with no real directional change.
+
+[P] Under this view, you want an ETF that generates income from selling options on the underlying bonds. When the perceived uncertainty is high (implied volatility) but the actual move is marginal (realized volatility), an options-selling strategy allows you to monetize the volatility and capture that income on top of the bond income. Note, though, that this strategy will underperform in the reverse situation, when perceived uncertainty is low and there is directional movement in yields. The underperformance shows up mainly when yields fall sharply, since the options you sold cap your gains.
+
+[P] Do you also want to use long duration bonds to maximize returns? It depends on where you think the uncertainty is. If the uncertainty is more around central bank decisions in a country with a new central bank head and no established track record, then you will want to employ this strategy on funds with shorter duration, as central bank policy decisions have a much larger impact on short-term bonds. If you think the uncertainty lives more in uncertain future structural decisions, like whether AI spending can be sustained or whether a productivity boom will actually arrive, then the longer end.
+
+[P] Below are some covered call US bond ETFs split by short and long duration, plus Canadian bond options. To see the live list of covered call bond etfs, you can go to Covered Call Hub to see the list.
+
+[P] Figure 2
+
+[P] HPYT (covered calls) against XTLH (no options) from February 13, 2024 to February 27, 2025, when the US 10-year yield swung over a 116-basis-point range and ended where it started (4.31% to 4.29%). Data as of October 17, 2026. Durations from the issuers' websites, mid-October 2026. Unhedged funds also move with the US dollar.
+
+[H3] Recession-Induced Interest Rate Cut
+
+[P] This is different from View 1 in that it is more a bet on whether the economic expansion will continue than a bet on interest rates per se. Under this view, you think that we are going into a recession AND central banks will respond by cutting interest rates.
+
+[P] This scenario is where one has to make a distinction between corporate and government bond ETFs, and where the creditworthiness of the issuers and regional exposure matter. In a recession, companies' earning power could be reduced, resulting in less ability (real or perceived) to pay back debt. Emerging market governments, especially those that derive revenue from commodity sales, could also be heavily impacted by declining commodity prices in a recession. So while general interest rates will go down, market interest rates on corporate bonds or emerging market government bonds might not go down as much, reflecting higher relative perceived risk.
+
+[P] So the most direct way is to buy government bond ETFs, again largely US, or perhaps EU/developed markets depending on the nature of the recession.
+
+[P] figure 3
+
+[P] Government, broad, corporate and high-yield bond ETFs through the 2020 US recession as dated by the NBER (March to April 2020. Data as of October 17, 2026. The lower-grade funds also have shorter durations so part of the gap may come from duration rather than quality alone.
+
+[H3] Global Growth Boom
+
+[P] Here is the opposite of View 3, where you think a boom is coming. But frankly, if that is the case, why do you want bond ETFs tactically? Equity is the more direct way to play that view.
+
+[P] Section 3
+
+[H2] Conclusion
+
+[P] There are many options of bond ETFs in Canada, but not all are the same. Two bond ETFs can both hold government bonds and still end up far apart in the same year, depending on how long their bonds are, whether they sell options, and whether they are hedged to the Canadian dollar.
+
+[P] So before picking a bond ETF for a tactical bet on interest rates, get clear on your view first: which way you think rates are going, why, and over what time frame. Then look the ETF up on DecodeETF. Every ETF report card shows its duration, its yield to maturity and what it holds, including credit quality and sector mix, plus an “If rates moved” chart that shows what $10,000 would do if rates fall 1 percentage point, stay put, or rise 1 percentage point. You can also put two bond ETFs side by side in Compare before you decide.
+
+[H3] ETF insights, straight to your inbox
+
+[P] We break down what Canadian ETF investors need to know. Free. No account needed. Unsubscribe anytime.

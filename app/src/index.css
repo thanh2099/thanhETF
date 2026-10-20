@@ -1,0 +1,167 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Fonts */
+    --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    --font-mono: 'Geist Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+    --font-display: 'Space Grotesk', system-ui, sans-serif;
+    --font-heading: var(--font-display);
+
+    /* Light Theme (Parchment & Forest) */
+    --bg-0: #f1e7d2;
+    --bg-1: #f9f1e2;
+    --bg-2: #f5ecda;
+    --bg-3: #fffbf4;
+    --bg-4: #f1e7d2;
+    --bg-5: #e8ddc5;
+
+    --fg-1: #152318;
+    --fg-2: #364038;
+    --fg-3: #505b52;
+    --fg-muted: #505b52;
+    --fg-faint: #6a756b;
+    --fg-fainter: #7e8a80;
+
+    --primary: #156f41;
+    --primary-hover: #005d32;
+    --primary-muted: rgba(21, 111, 65, 0.12);
+    --primary-subtle: #c2e9ce;
+    --primary-foreground: #fffbf4;
+
+    --accent-2: #df7752;
+    --accent-2-fg: #a24019;
+    --accent-2-muted: #ffdccf;
+    --amber: #8a5a12;
+
+    --border: #dfd7c6;
+    --border-faint: #e7e1d4;
+    --radius: 0px;
+
+    /* Semantic Returns */
+    --ret-up-2-fg: #004522; --ret-up-2-bg: #b0e2c0;
+    --ret-up-1-fg: #004a27; --ret-up-1-bg: #c2e9ce;
+    --ret-flat-fg: #705a2c; --ret-flat-bg: #f3e7ce;
+    --ret-down-1-fg: #9e2225; --ret-down-1-bg: #ffdfdc;
+    --ret-down-2-fg: #8d000f; --ret-down-2-bg: #fdcdc9;
+
+    /* Compare Fund Colors */
+    --compare-fund-1: #2c6e4e;
+    --compare-fund-2: #b03a85;
+    --compare-fund-3: #2f6fc4;
+    --compare-fund-4: #2e3440;
+    --compare-fund-5: #7a5bd0;
+
+    /* Chart Category Colors */
+    --chart-1: #2c6e4e;
+    --chart-2: #d2794f;
+    --chart-3: #4f8f6d;
+    --chart-4: #c9a96a;
+    --chart-5: #6e7b96;
+    --chart-6: #1f513a;
+    --chart-7: #9c4f32;
+    --chart-8: #9a9078;
+  }
+
+  .dark {
+    /* Dark Theme (Deep Forest Terminal) */
+    --bg-0: #08120a;
+    --bg-1: #0d1910;
+    --bg-2: #121e14;
+    --bg-3: #152318;
+    --bg-4: #1d2a1f;
+    --bg-5: #243226;
+
+    --fg-1: #efebe1;
+    --fg-2: #c2bdb4;
+    --fg-3: #919c92;
+    --fg-muted: #919c92;
+    --fg-faint: #8a968c;
+    --fg-fainter: #727e74;
+
+    --primary: #4ebe7d;
+    --primary-hover: #6cd092;
+    --primary-muted: rgba(78, 190, 125, 0.16);
+    --primary-subtle: #0f3620;
+    --primary-foreground: #09150b;
+
+    --accent-2: #f69370;
+    --accent-2-fg: #ffb59b;
+    --accent-2-muted: #4c271a;
+    --amber: #e0b060;
+
+    --border: #29372b;
+    --border-faint: #202d22;
+
+    /* Semantic Returns */
+    --ret-up-2-fg: #77e5a2; --ret-up-2-bg: #0c3d22;
+    --ret-up-1-fg: #79dd9f; --ret-up-1-bg: #0f3620;
+    --ret-flat-fg: #d3bb8a; --ret-flat-bg: #332a16;
+    --ret-down-1-fg: #ff9e96; --ret-down-1-bg: #462220;
+    --ret-down-2-fg: #ffb3ac; --ret-down-2-bg: #542523;
+
+    /* Compare Fund Colors */
+    --compare-fund-1: #62c793;
+    --compare-fund-2: #e58ac0;
+    --compare-fund-3: #7fb0f0;
+    --compare-fund-4: #d9dee6;
+    --compare-fund-5: #b4a2f2;
+
+    /* Chart Category Colors */
+    --chart-1: #62c793;
+    --chart-2: #e89a72;
+    --chart-3: #8fcca9;
+    --chart-4: #d9c08c;
+    --chart-5: #97a2bc;
+    --chart-6: #3e7f5c;
+    --chart-7: #c4744f;
+    --chart-8: #b5ac93;
+  }
+}
+
+* {
+  border-color: var(--border);
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-0);
+  color: var(--fg-1);
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Utilities matching DecodeETF */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum";
+}
+
+/* Ticker Marquee Animation */
+@keyframes ticker-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: ticker-marquee 100s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Micro-interaction hover glow */
+.hover-glow {
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.hover-glow:hover {
+  border-color: var(--primary);
+  background-color: var(--bg-2);
+}

@@ -1,0 +1,4578 @@
+[
+  {
+    "symbol": "XMF.A.TO",
+    "name": "XMF.A.TO ETF"
+  },
+  {
+    "symbol": "LCS.TO",
+    "name": "LCS.TO ETF"
+  },
+  {
+    "symbol": "SBC.TO",
+    "name": "SBC.TO ETF"
+  },
+  {
+    "symbol": "CLSA.TO",
+    "name": "CLSA.TO ETF"
+  },
+  {
+    "symbol": "HCA.TO",
+    "name": "HCA.TO ETF"
+  },
+  {
+    "symbol": "RBNK.TO",
+    "name": "RBNK.TO ETF"
+  },
+  {
+    "symbol": "CEW.TO",
+    "name": "CEW.TO ETF"
+  },
+  {
+    "symbol": "HBNK.TO",
+    "name": "HBNK.TO ETF"
+  },
+  {
+    "symbol": "ZEB.TO",
+    "name": "ZEB.TO ETF"
+  },
+  {
+    "symbol": "HEB.TO",
+    "name": "HEB.TO ETF"
+  },
+  {
+    "symbol": "HEWB.TO",
+    "name": "HEWB.TO ETF"
+  },
+  {
+    "symbol": "XFN.TO",
+    "name": "XFN.TO ETF"
+  },
+  {
+    "symbol": "HXF.TO",
+    "name": "HXF.TO ETF"
+  },
+  {
+    "symbol": "SAFE.TO",
+    "name": "SAFE.TO ETF"
+  },
+  {
+    "symbol": "HFN.TO",
+    "name": "HFN.TO ETF"
+  },
+  {
+    "symbol": "FIE.TO",
+    "name": "FIE.TO ETF"
+  },
+  {
+    "symbol": "ZBI.TO",
+    "name": "ZBI.TO ETF"
+  },
+  {
+    "symbol": "BK.TO",
+    "name": "BK.TO ETF"
+  },
+  {
+    "symbol": "LFE.TO",
+    "name": "LFE.TO ETF"
+  },
+  {
+    "symbol": "XTD.TO",
+    "name": "XTD.TO ETF"
+  },
+  {
+    "symbol": "YCM.TO",
+    "name": "YCM.TO ETF"
+  },
+  {
+    "symbol": "ASHR.TO",
+    "name": "ASHR.TO ETF"
+  },
+  {
+    "symbol": "RCDB.NE",
+    "name": "RCDB.NE ETF"
+  },
+  {
+    "symbol": "RUD.TO",
+    "name": "RUD.TO ETF"
+  },
+  {
+    "symbol": "RQP.TO",
+    "name": "RQP.TO ETF"
+  },
+  {
+    "symbol": "RQQ.TO",
+    "name": "RQQ.TO ETF"
+  },
+  {
+    "symbol": "RPF.TO",
+    "name": "RPF.TO ETF"
+  },
+  {
+    "symbol": "AGLR.NE",
+    "name": "AGLR.NE ETF"
+  },
+  {
+    "symbol": "AGSG.NE",
+    "name": "AGSG.NE ETF"
+  },
+  {
+    "symbol": "AIQ.TO",
+    "name": "AIQ.TO ETF"
+  },
+  {
+    "symbol": "ATAP.NE",
+    "name": "ATAP.NE ETF"
+  },
+  {
+    "symbol": "ATRB.NE",
+    "name": "ATRB.NE ETF"
+  },
+  {
+    "symbol": "BAAA.TO",
+    "name": "BAAA.TO ETF"
+  },
+  {
+    "symbol": "BBBB.TO",
+    "name": "BBBB.TO ETF"
+  },
+  {
+    "symbol": "BESG.TO",
+    "name": "BESG.TO ETF"
+  },
+  {
+    "symbol": "BGC.TO",
+    "name": "BGC.TO ETF"
+  },
+  {
+    "symbol": "BGU.TO",
+    "name": "BGU.TO ETF"
+  },
+  {
+    "symbol": "BIVC.TO",
+    "name": "BIVC.TO ETF"
+  },
+  {
+    "symbol": "BIVU.TO",
+    "name": "BIVU.TO ETF"
+  },
+  {
+    "symbol": "BLCK.TO",
+    "name": "BLCK.TO ETF"
+  },
+  {
+    "symbol": "BND.TO",
+    "name": "BND.TO ETF"
+  },
+  {
+    "symbol": "BPRF.TO",
+    "name": "BPRF.TO ETF"
+  },
+  {
+    "symbol": "BSKT.TO",
+    "name": "BSKT.TO ETF"
+  },
+  {
+    "symbol": "BXF.TO",
+    "name": "BXF.TO ETF"
+  },
+  {
+    "symbol": "CACB.TO",
+    "name": "CACB.TO ETF"
+  },
+  {
+    "symbol": "CACE.TO",
+    "name": "CACE.TO ETF"
+  },
+  {
+    "symbol": "CADE.TO",
+    "name": "CADE.TO ETF"
+  },
+  {
+    "symbol": "CAEM.TO",
+    "name": "CAEM.TO ETF"
+  },
+  {
+    "symbol": "CAGE.TO",
+    "name": "CAGE.TO ETF"
+  },
+  {
+    "symbol": "CAGG.TO",
+    "name": "CAGG.TO ETF"
+  },
+  {
+    "symbol": "CAGS.TO",
+    "name": "CAGS.TO ETF"
+  },
+  {
+    "symbol": "CALB.TO",
+    "name": "CALB.TO ETF"
+  },
+  {
+    "symbol": "CALV.TO",
+    "name": "CALV.TO ETF"
+  },
+  {
+    "symbol": "CAPG.TO",
+    "name": "CAPG.TO ETF"
+  },
+  {
+    "symbol": "CAPI.TO",
+    "name": "CAPI.TO ETF"
+  },
+  {
+    "symbol": "CAPM.TO",
+    "name": "CAPM.TO ETF"
+  },
+  {
+    "symbol": "CAPW.TO",
+    "name": "CAPW.TO ETF"
+  },
+  {
+    "symbol": "CARS.TO",
+    "name": "CARS.TO ETF"
+  },
+  {
+    "symbol": "CASH.TO",
+    "name": "CASH.TO ETF"
+  },
+  {
+    "symbol": "CASV.TO",
+    "name": "CASV.TO ETF"
+  },
+  {
+    "symbol": "CAUS.TO",
+    "name": "CAUS.TO ETF"
+  },
+  {
+    "symbol": "CAUV.TO",
+    "name": "CAUV.TO ETF"
+  },
+  {
+    "symbol": "CBAL.TO",
+    "name": "CBAL.TO ETF"
+  },
+  {
+    "symbol": "CBAP.TO",
+    "name": "CBAP.TO ETF"
+  },
+  {
+    "symbol": "CBGR.TO",
+    "name": "CBGR.TO ETF"
+  },
+  {
+    "symbol": "CBH.TO",
+    "name": "CBH.TO ETF"
+  },
+  {
+    "symbol": "CBIL.TO",
+    "name": "CBIL.TO ETF"
+  },
+  {
+    "symbol": "CBIN.TO",
+    "name": "CBIN.TO ETF"
+  },
+  {
+    "symbol": "CBL.TO",
+    "name": "CBL.TO ETF"
+  },
+  {
+    "symbol": "CBLN.TO",
+    "name": "CBLN.TO ETF"
+  },
+  {
+    "symbol": "CBND.TO",
+    "name": "CBND.TO ETF"
+  },
+  {
+    "symbol": "CBO.TO",
+    "name": "CBO.TO ETF"
+  },
+  {
+    "symbol": "CBUG.TO",
+    "name": "CBUG.TO ETF"
+  },
+  {
+    "symbol": "CCAD.TO",
+    "name": "CCAD.TO ETF"
+  },
+  {
+    "symbol": "CCBA.NE",
+    "name": "CCBA.NE ETF"
+  },
+  {
+    "symbol": "CCBI.TO",
+    "name": "CCBI.TO ETF"
+  },
+  {
+    "symbol": "CCDN.NE",
+    "name": "CCDN.NE ETF"
+  },
+  {
+    "symbol": "CCEI.TO",
+    "name": "CCEI.TO ETF"
+  },
+  {
+    "symbol": "CCLO.NE",
+    "name": "CCLO.NE ETF"
+  },
+  {
+    "symbol": "CCNS.TO",
+    "name": "CCNS.TO ETF"
+  },
+  {
+    "symbol": "CCNV.TO",
+    "name": "CCNV.TO ETF"
+  },
+  {
+    "symbol": "CCOM.TO",
+    "name": "CCOM.TO ETF"
+  },
+  {
+    "symbol": "CCON.TO",
+    "name": "CCON.TO ETF"
+  },
+  {
+    "symbol": "CCRE.TO",
+    "name": "CCRE.TO ETF"
+  },
+  {
+    "symbol": "CDEF.TO",
+    "name": "CDEF.TO ETF"
+  },
+  {
+    "symbol": "CDIV.TO",
+    "name": "CDIV.TO ETF"
+  },
+  {
+    "symbol": "CDLB.TO",
+    "name": "CDLB.TO ETF"
+  },
+  {
+    "symbol": "CDZ.TO",
+    "name": "CDZ.TO ETF"
+  },
+  {
+    "symbol": "CEMI.TO",
+    "name": "CEMI.TO ETF"
+  },
+  {
+    "symbol": "CEQP.TO",
+    "name": "CEQP.TO ETF"
+  },
+  {
+    "symbol": "CEQT.TO",
+    "name": "CEQT.TO ETF"
+  },
+  {
+    "symbol": "CEQY.TO",
+    "name": "CEQY.TO ETF"
+  },
+  {
+    "symbol": "CESG.NE",
+    "name": "CESG.NE ETF"
+  },
+  {
+    "symbol": "CFLX.TO",
+    "name": "CFLX.TO ETF"
+  },
+  {
+    "symbol": "CFRN.TO",
+    "name": "CFRN.TO ETF"
+  },
+  {
+    "symbol": "CFRT.TO",
+    "name": "CFRT.TO ETF"
+  },
+  {
+    "symbol": "CGAA.TO",
+    "name": "CGAA.TO ETF"
+  },
+  {
+    "symbol": "CGBI.TO",
+    "name": "CGBI.TO ETF"
+  },
+  {
+    "symbol": "CGDI.TO",
+    "name": "CGDI.TO ETF"
+  },
+  {
+    "symbol": "CGDV.TO",
+    "name": "CGDV.TO ETF"
+  },
+  {
+    "symbol": "CGHY.TO",
+    "name": "CGHY.TO ETF"
+  },
+  {
+    "symbol": "CGIN.TO",
+    "name": "CGIN.TO ETF"
+  },
+  {
+    "symbol": "CGLO.TO",
+    "name": "CGLO.TO ETF"
+  },
+  {
+    "symbol": "CGQD.B.TO",
+    "name": "CGQD.B.TO ETF"
+  },
+  {
+    "symbol": "CGR.TO",
+    "name": "CGR.TO ETF"
+  },
+  {
+    "symbol": "CGRA.TO",
+    "name": "CGRA.TO ETF"
+  },
+  {
+    "symbol": "CGRB.TO",
+    "name": "CGRB.TO ETF"
+  },
+  {
+    "symbol": "CGRE.TO",
+    "name": "CGRE.TO ETF"
+  },
+  {
+    "symbol": "CGRN.TO",
+    "name": "CGRN.TO ETF"
+  },
+  {
+    "symbol": "CGRO.TO",
+    "name": "CGRO.TO ETF"
+  },
+  {
+    "symbol": "CGRW.TO",
+    "name": "CGRW.TO ETF"
+  },
+  {
+    "symbol": "CGSB.NE",
+    "name": "CGSB.NE ETF"
+  },
+  {
+    "symbol": "CHCL.B.NE",
+    "name": "CHCL.B.NE ETF"
+  },
+  {
+    "symbol": "CHNA.B.TO",
+    "name": "CHNA.B.TO ETF"
+  },
+  {
+    "symbol": "CHPS.TO",
+    "name": "CHPS.TO ETF"
+  },
+  {
+    "symbol": "CHQQ.TO",
+    "name": "CHQQ.TO ETF"
+  },
+  {
+    "symbol": "CIBR.TO",
+    "name": "CIBR.TO ETF"
+  },
+  {
+    "symbol": "CIE.NE",
+    "name": "CIE.NE ETF"
+  },
+  {
+    "symbol": "CIEH.TO",
+    "name": "CIEH.TO ETF"
+  },
+  {
+    "symbol": "CIEI.TO",
+    "name": "CIEI.TO ETF"
+  },
+  {
+    "symbol": "CIEM.TO",
+    "name": "CIEM.TO ETF"
+  },
+  {
+    "symbol": "CIF.TO",
+    "name": "CIF.TO ETF"
+  },
+  {
+    "symbol": "CINF.TO",
+    "name": "CINF.TO ETF"
+  },
+  {
+    "symbol": "CINT.TO",
+    "name": "CINT.TO ETF"
+  },
+  {
+    "symbol": "CJP.NE",
+    "name": "CJP.NE ETF"
+  },
+  {
+    "symbol": "CLBF.NE",
+    "name": "CLBF.NE ETF"
+  },
+  {
+    "symbol": "CLF.TO",
+    "name": "CLF.TO ETF"
+  },
+  {
+    "symbol": "CLG.TO",
+    "name": "CLG.TO ETF"
+  },
+  {
+    "symbol": "CLU.NE",
+    "name": "CLU.NE ETF"
+  },
+  {
+    "symbol": "CMAR.TO",
+    "name": "CMAR.TO ETF"
+  },
+  {
+    "symbol": "CMCX.TO",
+    "name": "CMCX.TO ETF"
+  },
+  {
+    "symbol": "CMDO.TO",
+    "name": "CMDO.TO ETF"
+  },
+  {
+    "symbol": "CMNY.TO",
+    "name": "CMNY.TO ETF"
+  },
+  {
+    "symbol": "CMOM.TO",
+    "name": "CMOM.TO ETF"
+  },
+  {
+    "symbol": "CMR.TO",
+    "name": "CMR.TO ETF"
+  },
+  {
+    "symbol": "CMVP.TO",
+    "name": "CMVP.TO ETF"
+  },
+  {
+    "symbol": "CNDX.TO",
+    "name": "CNDX.TO ETF"
+  },
+  {
+    "symbol": "CNV.TO",
+    "name": "CNV.TO ETF"
+  },
+  {
+    "symbol": "COMM.TO",
+    "name": "COMM.TO ETF"
+  },
+  {
+    "symbol": "COPP.TO",
+    "name": "COPP.TO ETF"
+  },
+  {
+    "symbol": "CORE.TO",
+    "name": "CORE.TO ETF"
+  },
+  {
+    "symbol": "COW.TO",
+    "name": "COW.TO ETF"
+  },
+  {
+    "symbol": "CPD.TO",
+    "name": "CPD.TO ETF"
+  },
+  {
+    "symbol": "CPLS.TO",
+    "name": "CPLS.TO ETF"
+  },
+  {
+    "symbol": "CQLC.NE",
+    "name": "CQLC.NE ETF"
+  },
+  {
+    "symbol": "CQLI.NE",
+    "name": "CQLI.NE ETF"
+  },
+  {
+    "symbol": "CQLU.NE",
+    "name": "CQLU.NE ETF"
+  },
+  {
+    "symbol": "CROC.TO",
+    "name": "CROC.TO ETF"
+  },
+  {
+    "symbol": "CROP.TO",
+    "name": "CROP.TO ETF"
+  },
+  {
+    "symbol": "CRQ.NE",
+    "name": "CRQ.NE ETF"
+  },
+  {
+    "symbol": "CSAV.TO",
+    "name": "CSAV.TO ETF"
+  },
+  {
+    "symbol": "CSBA.NE",
+    "name": "CSBA.NE ETF"
+  },
+  {
+    "symbol": "CSBG.NE",
+    "name": "CSBG.NE ETF"
+  },
+  {
+    "symbol": "CSBI.TO",
+    "name": "CSBI.TO ETF"
+  },
+  {
+    "symbol": "CSCB.NE",
+    "name": "CSCB.NE ETF"
+  },
+  {
+    "symbol": "CSCE.NE",
+    "name": "CSCE.NE ETF"
+  },
+  {
+    "symbol": "CSCP.NE",
+    "name": "CSCP.NE ETF"
+  },
+  {
+    "symbol": "CSMD.TO",
+    "name": "CSMD.TO ETF"
+  },
+  {
+    "symbol": "CSTB.NE",
+    "name": "CSTB.NE ETF"
+  },
+  {
+    "symbol": "CTBB.NE",
+    "name": "CTBB.NE ETF"
+  },
+  {
+    "symbol": "CTBC.NE",
+    "name": "CTBC.NE ETF"
+  },
+  {
+    "symbol": "CTBD.NE",
+    "name": "CTBD.NE ETF"
+  },
+  {
+    "symbol": "CTBE.NE",
+    "name": "CTBE.NE ETF"
+  },
+  {
+    "symbol": "CTBF.NE",
+    "name": "CTBF.NE ETF"
+  },
+  {
+    "symbol": "CTBG.NE",
+    "name": "CTBG.NE ETF"
+  },
+  {
+    "symbol": "CTIP.NE",
+    "name": "CTIP.NE ETF"
+  },
+  {
+    "symbol": "CTMA.TO",
+    "name": "CTMA.TO ETF"
+  },
+  {
+    "symbol": "CTMB.TO",
+    "name": "CTMB.TO ETF"
+  },
+  {
+    "symbol": "CTMC.TO",
+    "name": "CTMC.TO ETF"
+  },
+  {
+    "symbol": "CTUD.U.NE",
+    "name": "CTUD.U.NE ETF"
+  },
+  {
+    "symbol": "CTUE.U.NE",
+    "name": "CTUE.U.NE ETF"
+  },
+  {
+    "symbol": "CTUF.U.NE",
+    "name": "CTUF.U.NE ETF"
+  },
+  {
+    "symbol": "CTUG.U.NE",
+    "name": "CTUG.U.NE ETF"
+  },
+  {
+    "symbol": "CTUH.U.NE",
+    "name": "CTUH.U.NE ETF"
+  },
+  {
+    "symbol": "CTUI.U.NE",
+    "name": "CTUI.U.NE ETF"
+  },
+  {
+    "symbol": "CUBD.TO",
+    "name": "CUBD.TO ETF"
+  },
+  {
+    "symbol": "CUD.TO",
+    "name": "CUD.TO ETF"
+  },
+  {
+    "symbol": "CUDV.TO",
+    "name": "CUDV.TO ETF"
+  },
+  {
+    "symbol": "CUEH.TO",
+    "name": "CUEH.TO ETF"
+  },
+  {
+    "symbol": "CUEI.TO",
+    "name": "CUEI.TO ETF"
+  },
+  {
+    "symbol": "CUIG.TO",
+    "name": "CUIG.TO ETF"
+  },
+  {
+    "symbol": "CUSA.NE",
+    "name": "CUSA.NE ETF"
+  },
+  {
+    "symbol": "CUSD.U.TO",
+    "name": "CUSD.U.TO ETF"
+  },
+  {
+    "symbol": "CUSM.B.NE",
+    "name": "CUSM.B.NE ETF"
+  },
+  {
+    "symbol": "CVD.TO",
+    "name": "CVD.TO ETF"
+  },
+  {
+    "symbol": "CVLU.TO",
+    "name": "CVLU.TO ETF"
+  },
+  {
+    "symbol": "CWO.NE",
+    "name": "CWO.NE ETF"
+  },
+  {
+    "symbol": "CWW.TO",
+    "name": "CWW.TO ETF"
+  },
+  {
+    "symbol": "CXF.TO",
+    "name": "CXF.TO ETF"
+  },
+  {
+    "symbol": "CYBR.TO",
+    "name": "CYBR.TO ETF"
+  },
+  {
+    "symbol": "CYH.TO",
+    "name": "CYH.TO ETF"
+  },
+  {
+    "symbol": "DACL.TO",
+    "name": "DACL.TO ETF"
+  },
+  {
+    "symbol": "DACU.TO",
+    "name": "DACU.TO ETF"
+  },
+  {
+    "symbol": "DAGL.TO",
+    "name": "DAGL.TO ETF"
+  },
+  {
+    "symbol": "DATA.TO",
+    "name": "DATA.TO ETF"
+  },
+  {
+    "symbol": "DCBC.TO",
+    "name": "DCBC.TO ETF"
+  },
+  {
+    "symbol": "DCC.TO",
+    "name": "DCC.TO ETF"
+  },
+  {
+    "symbol": "DCG.TO",
+    "name": "DCG.TO ETF"
+  },
+  {
+    "symbol": "DCP.TO",
+    "name": "DCP.TO ETF"
+  },
+  {
+    "symbol": "DCS.TO",
+    "name": "DCS.TO ETF"
+  },
+  {
+    "symbol": "DCU.TO",
+    "name": "DCU.TO ETF"
+  },
+  {
+    "symbol": "DGGB.TO",
+    "name": "DGGB.TO ETF"
+  },
+  {
+    "symbol": "DGLM.TO",
+    "name": "DGLM.TO ETF"
+  },
+  {
+    "symbol": "DGR.TO",
+    "name": "DGR.TO ETF"
+  },
+  {
+    "symbol": "DGRC.TO",
+    "name": "DGRC.TO ETF"
+  },
+  {
+    "symbol": "DISC.TO",
+    "name": "DISC.TO ETF"
+  },
+  {
+    "symbol": "DIVS.TO",
+    "name": "DIVS.TO ETF"
+  },
+  {
+    "symbol": "DIVY.TO",
+    "name": "DIVY.TO ETF"
+  },
+  {
+    "symbol": "DLR.TO",
+    "name": "DLR.TO ETF"
+  },
+  {
+    "symbol": "DMEC.TO",
+    "name": "DMEC.TO ETF"
+  },
+  {
+    "symbol": "DMEE.TO",
+    "name": "DMEE.TO ETF"
+  },
+  {
+    "symbol": "DMEI.TO",
+    "name": "DMEI.TO ETF"
+  },
+  {
+    "symbol": "DMEU.TO",
+    "name": "DMEU.TO ETF"
+  },
+  {
+    "symbol": "DMID.TO",
+    "name": "DMID.TO ETF"
+  },
+  {
+    "symbol": "DMQC.TO",
+    "name": "DMQC.TO ETF"
+  },
+  {
+    "symbol": "DRCU.TO",
+    "name": "DRCU.TO ETF"
+  },
+  {
+    "symbol": "DRFC.TO",
+    "name": "DRFC.TO ETF"
+  },
+  {
+    "symbol": "DRFD.TO",
+    "name": "DRFD.TO ETF"
+  },
+  {
+    "symbol": "DRFE.TO",
+    "name": "DRFE.TO ETF"
+  },
+  {
+    "symbol": "DRFG.TO",
+    "name": "DRFG.TO ETF"
+  },
+  {
+    "symbol": "DRFU.TO",
+    "name": "DRFU.TO ETF"
+  },
+  {
+    "symbol": "DRMC.TO",
+    "name": "DRMC.TO ETF"
+  },
+  {
+    "symbol": "DRME.TO",
+    "name": "DRME.TO ETF"
+  },
+  {
+    "symbol": "DRMU.TO",
+    "name": "DRMU.TO ETF"
+  },
+  {
+    "symbol": "DUIG.TO",
+    "name": "DUIG.TO ETF"
+  },
+  {
+    "symbol": "DXAU.TO",
+    "name": "DXAU.TO ETF"
+  },
+  {
+    "symbol": "DXB.TO",
+    "name": "DXB.TO ETF"
+  },
+  {
+    "symbol": "DXBB.TO",
+    "name": "DXBB.TO ETF"
+  },
+  {
+    "symbol": "DXBC.TO",
+    "name": "DXBC.TO ETF"
+  },
+  {
+    "symbol": "DXBG.TO",
+    "name": "DXBG.TO ETF"
+  },
+  {
+    "symbol": "DXBU.TO",
+    "name": "DXBU.TO ETF"
+  },
+  {
+    "symbol": "DXC.TO",
+    "name": "DXC.TO ETF"
+  },
+  {
+    "symbol": "DXCB.TO",
+    "name": "DXCB.TO ETF"
+  },
+  {
+    "symbol": "DXCO.TO",
+    "name": "DXCO.TO ETF"
+  },
+  {
+    "symbol": "DXCP.TO",
+    "name": "DXCP.TO ETF"
+  },
+  {
+    "symbol": "DXDB.TO",
+    "name": "DXDB.TO ETF"
+  },
+  {
+    "symbol": "DXDU.U.TO",
+    "name": "DXDU.U.TO ETF"
+  },
+  {
+    "symbol": "DXF.TO",
+    "name": "DXF.TO ETF"
+  },
+  {
+    "symbol": "DXG.TO",
+    "name": "DXG.TO ETF"
+  },
+  {
+    "symbol": "DXGE.TO",
+    "name": "DXGE.TO ETF"
+  },
+  {
+    "symbol": "DXIF.TO",
+    "name": "DXIF.TO ETF"
+  },
+  {
+    "symbol": "DXMO.TO",
+    "name": "DXMO.TO ETF"
+  },
+  {
+    "symbol": "DXN.TO",
+    "name": "DXN.TO ETF"
+  },
+  {
+    "symbol": "DXO.TO",
+    "name": "DXO.TO ETF"
+  },
+  {
+    "symbol": "DXP.TO",
+    "name": "DXP.TO ETF"
+  },
+  {
+    "symbol": "DXR.TO",
+    "name": "DXR.TO ETF"
+  },
+  {
+    "symbol": "DXRE.TO",
+    "name": "DXRE.TO ETF"
+  },
+  {
+    "symbol": "DXU.TO",
+    "name": "DXU.TO ETF"
+  },
+  {
+    "symbol": "DXV.TO",
+    "name": "DXV.TO ETF"
+  },
+  {
+    "symbol": "DXW.TO",
+    "name": "DXW.TO ETF"
+  },
+  {
+    "symbol": "DXZ.TO",
+    "name": "DXZ.TO ETF"
+  },
+  {
+    "symbol": "EAFX.NE",
+    "name": "EAFX.NE ETF"
+  },
+  {
+    "symbol": "EARN.TO",
+    "name": "EARN.TO ETF"
+  },
+  {
+    "symbol": "EDGE.TO",
+    "name": "EDGE.TO ETF"
+  },
+  {
+    "symbol": "EGIF.TO",
+    "name": "EGIF.TO ETF"
+  },
+  {
+    "symbol": "EHE.TO",
+    "name": "EHE.TO ETF"
+  },
+  {
+    "symbol": "EMMX.NE",
+    "name": "EMMX.NE ETF"
+  },
+  {
+    "symbol": "EMV.B.TO",
+    "name": "EMV.B.TO ETF"
+  },
+  {
+    "symbol": "EQE.NE",
+    "name": "EQE.NE ETF"
+  },
+  {
+    "symbol": "EQL.TO",
+    "name": "EQL.TO ETF"
+  },
+  {
+    "symbol": "EQLT.TO",
+    "name": "EQLT.TO ETF"
+  },
+  {
+    "symbol": "EQY.TO",
+    "name": "EQY.TO ETF"
+  },
+  {
+    "symbol": "ESG.TO",
+    "name": "ESG.TO ETF"
+  },
+  {
+    "symbol": "ESGA.TO",
+    "name": "ESGA.TO ETF"
+  },
+  {
+    "symbol": "ESGB.TO",
+    "name": "ESGB.TO ETF"
+  },
+  {
+    "symbol": "ESGC.TO",
+    "name": "ESGC.TO ETF"
+  },
+  {
+    "symbol": "ESGE.TO",
+    "name": "ESGE.TO ETF"
+  },
+  {
+    "symbol": "ESGF.TO",
+    "name": "ESGF.TO ETF"
+  },
+  {
+    "symbol": "ESGG.TO",
+    "name": "ESGG.TO ETF"
+  },
+  {
+    "symbol": "ESGY.TO",
+    "name": "ESGY.TO ETF"
+  },
+  {
+    "symbol": "ETC.TO",
+    "name": "ETC.TO ETF"
+  },
+  {
+    "symbol": "ETHI.TO",
+    "name": "ETHI.TO ETF"
+  },
+  {
+    "symbol": "ETP.TO",
+    "name": "ETP.TO ETF"
+  },
+  {
+    "symbol": "EVO.TO",
+    "name": "EVO.TO ETF"
+  },
+  {
+    "symbol": "FBAL.NE",
+    "name": "FBAL.NE ETF"
+  },
+  {
+    "symbol": "FBGO.TO",
+    "name": "FBGO.TO ETF"
+  },
+  {
+    "symbol": "FCAB.TO",
+    "name": "FCAB.TO ETF"
+  },
+  {
+    "symbol": "FCAM.NE",
+    "name": "FCAM.NE ETF"
+  },
+  {
+    "symbol": "FCCA.NE",
+    "name": "FCCA.NE ETF"
+  },
+  {
+    "symbol": "FCCB.NE",
+    "name": "FCCB.NE ETF"
+  },
+  {
+    "symbol": "FCCD.TO",
+    "name": "FCCD.TO ETF"
+  },
+  {
+    "symbol": "FCCL.NE",
+    "name": "FCCL.NE ETF"
+  },
+  {
+    "symbol": "FCCM.NE",
+    "name": "FCCM.NE ETF"
+  },
+  {
+    "symbol": "FCCQ.TO",
+    "name": "FCCQ.TO ETF"
+  },
+  {
+    "symbol": "FCCV.TO",
+    "name": "FCCV.TO ETF"
+  },
+  {
+    "symbol": "FCGB.NE",
+    "name": "FCGB.NE ETF"
+  },
+  {
+    "symbol": "FCGC.NE",
+    "name": "FCGC.NE ETF"
+  },
+  {
+    "symbol": "FCGS.NE",
+    "name": "FCGS.NE ETF"
+  },
+  {
+    "symbol": "FCID.TO",
+    "name": "FCID.TO ETF"
+  },
+  {
+    "symbol": "FCIG.NE",
+    "name": "FCIG.NE ETF"
+  },
+  {
+    "symbol": "FCII.TO",
+    "name": "FCII.TO ETF"
+  },
+  {
+    "symbol": "FCIL.NE",
+    "name": "FCIL.NE ETF"
+  },
+  {
+    "symbol": "FCIM.NE",
+    "name": "FCIM.NE ETF"
+  },
+  {
+    "symbol": "FCIN.NE",
+    "name": "FCIN.NE ETF"
+  },
+  {
+    "symbol": "FCIP.NE",
+    "name": "FCIP.NE ETF"
+  },
+  {
+    "symbol": "FCIQ.TO",
+    "name": "FCIQ.TO ETF"
+  },
+  {
+    "symbol": "FCIV.TO",
+    "name": "FCIV.TO ETF"
+  },
+  {
+    "symbol": "FCLC.NE",
+    "name": "FCLC.NE ETF"
+  },
+  {
+    "symbol": "FCMO.NE",
+    "name": "FCMO.NE ETF"
+  },
+  {
+    "symbol": "FCNS.NE",
+    "name": "FCNS.NE ETF"
+  },
+  {
+    "symbol": "FCQH.TO",
+    "name": "FCQH.TO ETF"
+  },
+  {
+    "symbol": "FCRC.TO",
+    "name": "FCRC.TO ETF"
+  },
+  {
+    "symbol": "FCRI.TO",
+    "name": "FCRI.TO ETF"
+  },
+  {
+    "symbol": "FCRR.TO",
+    "name": "FCRR.TO ETF"
+  },
+  {
+    "symbol": "FCRU.TO",
+    "name": "FCRU.TO ETF"
+  },
+  {
+    "symbol": "FCSB.NE",
+    "name": "FCSB.NE ETF"
+  },
+  {
+    "symbol": "FCSW.NE",
+    "name": "FCSW.NE ETF"
+  },
+  {
+    "symbol": "FCUB.TO",
+    "name": "FCUB.TO ETF"
+  },
+  {
+    "symbol": "FCUD.TO",
+    "name": "FCUD.TO ETF"
+  },
+  {
+    "symbol": "FCUH.TO",
+    "name": "FCUH.TO ETF"
+  },
+  {
+    "symbol": "FCUL.NE",
+    "name": "FCUL.NE ETF"
+  },
+  {
+    "symbol": "FCUQ.TO",
+    "name": "FCUQ.TO ETF"
+  },
+  {
+    "symbol": "FCUV.TO",
+    "name": "FCUV.TO ETF"
+  },
+  {
+    "symbol": "FCVH.TO",
+    "name": "FCVH.TO ETF"
+  },
+  {
+    "symbol": "FDIV.NE",
+    "name": "FDIV.NE ETF"
+  },
+  {
+    "symbol": "FDL.TO",
+    "name": "FDL.TO ETF"
+  },
+  {
+    "symbol": "FEQT.NE",
+    "name": "FEQT.NE ETF"
+  },
+  {
+    "symbol": "FFAB.TO",
+    "name": "FFAB.TO ETF"
+  },
+  {
+    "symbol": "FFIX.NE",
+    "name": "FFIX.NE ETF"
+  },
+  {
+    "symbol": "FGBL.TO",
+    "name": "FGBL.TO ETF"
+  },
+  {
+    "symbol": "FGEB.TO",
+    "name": "FGEB.TO ETF"
+  },
+  {
+    "symbol": "FGO.TO",
+    "name": "FGO.TO ETF"
+  },
+  {
+    "symbol": "FGOV.TO",
+    "name": "FGOV.TO ETF"
+  },
+  {
+    "symbol": "FGRO.NE",
+    "name": "FGRO.NE ETF"
+  },
+  {
+    "symbol": "FGRW.TO",
+    "name": "FGRW.TO ETF"
+  },
+  {
+    "symbol": "FHG.TO",
+    "name": "FHG.TO ETF"
+  },
+  {
+    "symbol": "FHH.TO",
+    "name": "FHH.TO ETF"
+  },
+  {
+    "symbol": "FHIS.TO",
+    "name": "FHIS.TO ETF"
+  },
+  {
+    "symbol": "FID.NE",
+    "name": "FID.NE ETF"
+  },
+  {
+    "symbol": "FIG.TO",
+    "name": "FIG.TO ETF"
+  },
+  {
+    "symbol": "FINC.TO",
+    "name": "FINC.TO ETF"
+  },
+  {
+    "symbol": "FINT.TO",
+    "name": "FINT.TO ETF"
+  },
+  {
+    "symbol": "FIXD.NE",
+    "name": "FIXD.NE ETF"
+  },
+  {
+    "symbol": "FJFB.NE",
+    "name": "FJFB.NE ETF"
+  },
+  {
+    "symbol": "FJFG.NE",
+    "name": "FJFG.NE ETF"
+  },
+  {
+    "symbol": "FLAM.NE",
+    "name": "FLAM.NE ETF"
+  },
+  {
+    "symbol": "FLCD.NE",
+    "name": "FLCD.NE ETF"
+  },
+  {
+    "symbol": "FLCI.TO",
+    "name": "FLCI.TO ETF"
+  },
+  {
+    "symbol": "FLCP.TO",
+    "name": "FLCP.TO ETF"
+  },
+  {
+    "symbol": "FLEM.NE",
+    "name": "FLEM.NE ETF"
+  },
+  {
+    "symbol": "FLGA.TO",
+    "name": "FLGA.TO ETF"
+  },
+  {
+    "symbol": "FLJA.NE",
+    "name": "FLJA.NE ETF"
+  },
+  {
+    "symbol": "FLSD.TO",
+    "name": "FLSD.TO ETF"
+  },
+  {
+    "symbol": "FLUR.NE",
+    "name": "FLUR.NE ETF"
+  },
+  {
+    "symbol": "FLUS.TO",
+    "name": "FLUS.TO ETF"
+  },
+  {
+    "symbol": "FLVC.NE",
+    "name": "FLVC.NE ETF"
+  },
+  {
+    "symbol": "FLVI.NE",
+    "name": "FLVI.NE ETF"
+  },
+  {
+    "symbol": "FLVU.NE",
+    "name": "FLVU.NE ETF"
+  },
+  {
+    "symbol": "FLX.TO",
+    "name": "FLX.TO ETF"
+  },
+  {
+    "symbol": "FMAE.TO",
+    "name": "FMAE.TO ETF"
+  },
+  {
+    "symbol": "FMID.NE",
+    "name": "FMID.NE ETF"
+  },
+  {
+    "symbol": "FMPB.TO",
+    "name": "FMPB.TO ETF"
+  },
+  {
+    "symbol": "FMPI.TO",
+    "name": "FMPI.TO ETF"
+  },
+  {
+    "symbol": "FPR.TO",
+    "name": "FPR.TO ETF"
+  },
+  {
+    "symbol": "FSB.TO",
+    "name": "FSB.TO ETF"
+  },
+  {
+    "symbol": "FSF.TO",
+    "name": "FSF.TO ETF"
+  },
+  {
+    "symbol": "FSL.TO",
+    "name": "FSL.TO ETF"
+  },
+  {
+    "symbol": "FST.TO",
+    "name": "FST.TO ETF"
+  },
+  {
+    "symbol": "FTHI.TO",
+    "name": "FTHI.TO ETF"
+  },
+  {
+    "symbol": "FUD.TO",
+    "name": "FUD.TO ETF"
+  },
+  {
+    "symbol": "FXM.TO",
+    "name": "FXM.TO ETF"
+  },
+  {
+    "symbol": "GBAL.TO",
+    "name": "GBAL.TO ETF"
+  },
+  {
+    "symbol": "GBFC.NE",
+    "name": "GBFC.NE ETF"
+  },
+  {
+    "symbol": "GBFD.NE",
+    "name": "GBFD.NE ETF"
+  },
+  {
+    "symbol": "GBFE.NE",
+    "name": "GBFE.NE ETF"
+  },
+  {
+    "symbol": "GBFF.NE",
+    "name": "GBFF.NE ETF"
+  },
+  {
+    "symbol": "GBLF.NE",
+    "name": "GBLF.NE ETF"
+  },
+  {
+    "symbol": "GBND.NE",
+    "name": "GBND.NE ETF"
+  },
+  {
+    "symbol": "GCBD.TO",
+    "name": "GCBD.TO ETF"
+  },
+  {
+    "symbol": "GCEI.TO",
+    "name": "GCEI.TO ETF"
+  },
+  {
+    "symbol": "GCFE.TO",
+    "name": "GCFE.TO ETF"
+  },
+  {
+    "symbol": "GCNS.TO",
+    "name": "GCNS.TO ETF"
+  },
+  {
+    "symbol": "GCSC.TO",
+    "name": "GCSC.TO ETF"
+  },
+  {
+    "symbol": "GCTB.TO",
+    "name": "GCTB.TO ETF"
+  },
+  {
+    "symbol": "GDIV.NE",
+    "name": "GDIV.NE ETF"
+  },
+  {
+    "symbol": "GEDG.NE",
+    "name": "GEDG.NE ETF"
+  },
+  {
+    "symbol": "GEQT.TO",
+    "name": "GEQT.TO ETF"
+  },
+  {
+    "symbol": "GFGE.TO",
+    "name": "GFGE.TO ETF"
+  },
+  {
+    "symbol": "GGRO.TO",
+    "name": "GGRO.TO ETF"
+  },
+  {
+    "symbol": "GICD.TO",
+    "name": "GICD.TO ETF"
+  },
+  {
+    "symbol": "GIES.TO",
+    "name": "GIES.TO ETF"
+  },
+  {
+    "symbol": "GIGC.TO",
+    "name": "GIGC.TO ETF"
+  },
+  {
+    "symbol": "GIGD.TO",
+    "name": "GIGD.TO ETF"
+  },
+  {
+    "symbol": "GIGF.F.TO",
+    "name": "GIGF.F.TO ETF"
+  },
+  {
+    "symbol": "GIIF.NE",
+    "name": "GIIF.NE ETF"
+  },
+  {
+    "symbol": "GLDX.TO",
+    "name": "GLDX.TO ETF"
+  },
+  {
+    "symbol": "GRNI.NE",
+    "name": "GRNI.NE ETF"
+  },
+  {
+    "symbol": "GRO.TO",
+    "name": "GRO.TO ETF"
+  },
+  {
+    "symbol": "GSDB.TO",
+    "name": "GSDB.TO ETF"
+  },
+  {
+    "symbol": "GTRI.TO",
+    "name": "GTRI.TO ETF"
+  },
+  {
+    "symbol": "GUTB.U.TO",
+    "name": "GUTB.U.TO ETF"
+  },
+  {
+    "symbol": "HAB.TO",
+    "name": "HAB.TO ETF"
+  },
+  {
+    "symbol": "HAC.TO",
+    "name": "HAC.TO ETF"
+  },
+  {
+    "symbol": "HAD.TO",
+    "name": "HAD.TO ETF"
+  },
+  {
+    "symbol": "HAF.TO",
+    "name": "HAF.TO ETF"
+  },
+  {
+    "symbol": "HAL.TO",
+    "name": "HAL.TO ETF"
+  },
+  {
+    "symbol": "HALO.TO",
+    "name": "HALO.TO ETF"
+  },
+  {
+    "symbol": "HAZ.TO",
+    "name": "HAZ.TO ETF"
+  },
+  {
+    "symbol": "HBA.TO",
+    "name": "HBA.TO ETF"
+  },
+  {
+    "symbol": "HBAL.TO",
+    "name": "HBAL.TO ETF"
+  },
+  {
+    "symbol": "HBDV.TO",
+    "name": "HBDV.TO ETF"
+  },
+  {
+    "symbol": "HBGD.TO",
+    "name": "HBGD.TO ETF"
+  },
+  {
+    "symbol": "HCON.TO",
+    "name": "HCON.TO ETF"
+  },
+  {
+    "symbol": "HEQT.TO",
+    "name": "HEQT.TO ETF"
+  },
+  {
+    "symbol": "HERO.TO",
+    "name": "HERO.TO ETF"
+  },
+  {
+    "symbol": "HFG.TO",
+    "name": "HFG.TO ETF"
+  },
+  {
+    "symbol": "HFR.TO",
+    "name": "HFR.TO ETF"
+  },
+  {
+    "symbol": "HGRW.TO",
+    "name": "HGRW.TO ETF"
+  },
+  {
+    "symbol": "HISA.NE",
+    "name": "HISA.NE ETF"
+  },
+  {
+    "symbol": "HISU.U.TO",
+    "name": "HISU.U.TO ETF"
+  },
+  {
+    "symbol": "HLIT.TO",
+    "name": "HLIT.TO ETF"
+  },
+  {
+    "symbol": "HMMJ.TO",
+    "name": "HMMJ.TO ETF"
+  },
+  {
+    "symbol": "HMP.TO",
+    "name": "HMP.TO ETF"
+  },
+  {
+    "symbol": "HPR.TO",
+    "name": "HPR.TO ETF"
+  },
+  {
+    "symbol": "HUM.TO",
+    "name": "HUM.TO ETF"
+  },
+  {
+    "symbol": "HURA.TO",
+    "name": "HURA.TO ETF"
+  },
+  {
+    "symbol": "HVOL.TO",
+    "name": "HVOL.TO ETF"
+  },
+  {
+    "symbol": "HXH.TO",
+    "name": "HXH.TO ETF"
+  },
+  {
+    "symbol": "HYBR.TO",
+    "name": "HYBR.TO ETF"
+  },
+  {
+    "symbol": "IBQT.TO",
+    "name": "IBQT.TO ETF"
+  },
+  {
+    "symbol": "ICAE.TO",
+    "name": "ICAE.TO ETF"
+  },
+  {
+    "symbol": "ICCB.TO",
+    "name": "ICCB.TO ETF"
+  },
+  {
+    "symbol": "ICGB.TO",
+    "name": "ICGB.TO ETF"
+  },
+  {
+    "symbol": "ICPB.TO",
+    "name": "ICPB.TO ETF"
+  },
+  {
+    "symbol": "IDEF.B.TO",
+    "name": "IDEF.B.TO ETF"
+  },
+  {
+    "symbol": "IDIV.B.TO",
+    "name": "IDIV.B.TO ETF"
+  },
+  {
+    "symbol": "IDUV.U.TO",
+    "name": "IDUV.U.TO ETF"
+  },
+  {
+    "symbol": "IFRF.TO",
+    "name": "IFRF.TO ETF"
+  },
+  {
+    "symbol": "IGAF.TO",
+    "name": "IGAF.TO ETF"
+  },
+  {
+    "symbol": "IGB.TO",
+    "name": "IGB.TO ETF"
+  },
+  {
+    "symbol": "IGCF.TO",
+    "name": "IGCF.TO ETF"
+  },
+  {
+    "symbol": "IGET.TO",
+    "name": "IGET.TO ETF"
+  },
+  {
+    "symbol": "IIAE.TO",
+    "name": "IIAE.TO ETF"
+  },
+  {
+    "symbol": "IICE.TO",
+    "name": "IICE.TO ETF"
+  },
+  {
+    "symbol": "IIMF.TO",
+    "name": "IIMF.TO ETF"
+  },
+  {
+    "symbol": "ILGB.TO",
+    "name": "ILGB.TO ETF"
+  },
+  {
+    "symbol": "INAI.TO",
+    "name": "INAI.TO ETF"
+  },
+  {
+    "symbol": "INCM.TO",
+    "name": "INCM.TO ETF"
+  },
+  {
+    "symbol": "INFR.TO",
+    "name": "INFR.TO ETF"
+  },
+  {
+    "symbol": "INOC.TO",
+    "name": "INOC.TO ETF"
+  },
+  {
+    "symbol": "IQD.TO",
+    "name": "IQD.TO ETF"
+  },
+  {
+    "symbol": "ISCB.TO",
+    "name": "ISCB.TO ETF"
+  },
+  {
+    "symbol": "ISIF.TO",
+    "name": "ISIF.TO ETF"
+  },
+  {
+    "symbol": "IUAE.TO",
+    "name": "IUAE.TO ETF"
+  },
+  {
+    "symbol": "IUFR.U.TO",
+    "name": "IUFR.U.TO ETF"
+  },
+  {
+    "symbol": "IUMF.TO",
+    "name": "IUMF.TO ETF"
+  },
+  {
+    "symbol": "IWEB.TO",
+    "name": "IWEB.TO ETF"
+  },
+  {
+    "symbol": "JAPN.TO",
+    "name": "JAPN.TO ETF"
+  },
+  {
+    "symbol": "JAVA.TO",
+    "name": "JAVA.TO ETF"
+  },
+  {
+    "symbol": "JBND.TO",
+    "name": "JBND.TO ETF"
+  },
+  {
+    "symbol": "JCOR.TO",
+    "name": "JCOR.TO ETF"
+  },
+  {
+    "symbol": "JGLO.TO",
+    "name": "JGLO.TO ETF"
+  },
+  {
+    "symbol": "JGRO.TO",
+    "name": "JGRO.TO ETF"
+  },
+  {
+    "symbol": "JPIE.TO",
+    "name": "JPIE.TO ETF"
+  },
+  {
+    "symbol": "JPST.TO",
+    "name": "JPST.TO ETF"
+  },
+  {
+    "symbol": "KNGC.TO",
+    "name": "KNGC.TO ETF"
+  },
+  {
+    "symbol": "KNGG.TO",
+    "name": "KNGG.TO ETF"
+  },
+  {
+    "symbol": "KNGU.TO",
+    "name": "KNGU.TO ETF"
+  },
+  {
+    "symbol": "KNGX.TO",
+    "name": "KNGX.TO ETF"
+  },
+  {
+    "symbol": "LYCT.TO",
+    "name": "LYCT.TO ETF"
+  },
+  {
+    "symbol": "LYFR.TO",
+    "name": "LYFR.TO ETF"
+  },
+  {
+    "symbol": "LYUV.U.TO",
+    "name": "LYUV.U.TO ETF"
+  },
+  {
+    "symbol": "MAAA.TO",
+    "name": "MAAA.TO ETF"
+  },
+  {
+    "symbol": "MAEC.TO",
+    "name": "MAEC.TO ETF"
+  },
+  {
+    "symbol": "MART.TO",
+    "name": "MART.TO ETF"
+  },
+  {
+    "symbol": "MBAL.TO",
+    "name": "MBAL.TO ETF"
+  },
+  {
+    "symbol": "MBAP.TO",
+    "name": "MBAP.TO ETF"
+  },
+  {
+    "symbol": "MCAD.TO",
+    "name": "MCAD.TO ETF"
+  },
+  {
+    "symbol": "MCAN.TO",
+    "name": "MCAN.TO ETF"
+  },
+  {
+    "symbol": "MCAP.TO",
+    "name": "MCAP.TO ETF"
+  },
+  {
+    "symbol": "MCKG.NE",
+    "name": "MCKG.NE ETF"
+  },
+  {
+    "symbol": "MCLC.TO",
+    "name": "MCLC.TO ETF"
+  },
+  {
+    "symbol": "MCLV.TO",
+    "name": "MCLV.TO ETF"
+  },
+  {
+    "symbol": "MCON.TO",
+    "name": "MCON.TO ETF"
+  },
+  {
+    "symbol": "MCOR.TO",
+    "name": "MCOR.TO ETF"
+  },
+  {
+    "symbol": "MCSB.TO",
+    "name": "MCSB.TO ETF"
+  },
+  {
+    "symbol": "MCSM.TO",
+    "name": "MCSM.TO ETF"
+  },
+  {
+    "symbol": "MDIF.TO",
+    "name": "MDIF.TO ETF"
+  },
+  {
+    "symbol": "MDIV.TO",
+    "name": "MDIV.TO ETF"
+  },
+  {
+    "symbol": "MEDX.TO",
+    "name": "MEDX.TO ETF"
+  },
+  {
+    "symbol": "MEME.B.TO",
+    "name": "MEME.B.TO ETF"
+  },
+  {
+    "symbol": "MEQT.TO",
+    "name": "MEQT.TO ETF"
+  },
+  {
+    "symbol": "MFT.TO",
+    "name": "MFT.TO ETF"
+  },
+  {
+    "symbol": "MFUN.TO",
+    "name": "MFUN.TO ETF"
+  },
+  {
+    "symbol": "MGAB.TO",
+    "name": "MGAB.TO ETF"
+  },
+  {
+    "symbol": "MGAP.TO",
+    "name": "MGAP.TO ETF"
+  },
+  {
+    "symbol": "MGB.TO",
+    "name": "MGB.TO ETF"
+  },
+  {
+    "symbol": "MGDV.TO",
+    "name": "MGDV.TO ETF"
+  },
+  {
+    "symbol": "MGEQ.NE",
+    "name": "MGEQ.NE ETF"
+  },
+  {
+    "symbol": "MGQE.TO",
+    "name": "MGQE.TO ETF"
+  },
+  {
+    "symbol": "MGRW.TO",
+    "name": "MGRW.TO ETF"
+  },
+  {
+    "symbol": "MGSB.NE",
+    "name": "MGSB.NE ETF"
+  },
+  {
+    "symbol": "MHCD.TO",
+    "name": "MHCD.TO ETF"
+  },
+  {
+    "symbol": "MHYB.NE",
+    "name": "MHYB.NE ETF"
+  },
+  {
+    "symbol": "MINF.TO",
+    "name": "MINF.TO ETF"
+  },
+  {
+    "symbol": "MINN.NE",
+    "name": "MINN.NE ETF"
+  },
+  {
+    "symbol": "MINT.TO",
+    "name": "MINT.TO ETF"
+  },
+  {
+    "symbol": "MIPC.TO",
+    "name": "MIPC.TO ETF"
+  },
+  {
+    "symbol": "MIQE.TO",
+    "name": "MIQE.TO ETF"
+  },
+  {
+    "symbol": "MIVG.TO",
+    "name": "MIVG.TO ETF"
+  },
+  {
+    "symbol": "MKB.TO",
+    "name": "MKB.TO ETF"
+  },
+  {
+    "symbol": "MMAC.TO",
+    "name": "MMAC.TO ETF"
+  },
+  {
+    "symbol": "MMCY.TO",
+    "name": "MMCY.TO ETF"
+  },
+  {
+    "symbol": "MMDF.TO",
+    "name": "MMDF.TO ETF"
+  },
+  {
+    "symbol": "MNU.U.TO",
+    "name": "MNU.U.TO ETF"
+  },
+  {
+    "symbol": "MNY.TO",
+    "name": "MNY.TO ETF"
+  },
+  {
+    "symbol": "MOAT.TO",
+    "name": "MOAT.TO ETF"
+  },
+  {
+    "symbol": "MORE.TO",
+    "name": "MORE.TO ETF"
+  },
+  {
+    "symbol": "MREL.TO",
+    "name": "MREL.TO ETF"
+  },
+  {
+    "symbol": "MSBP.TO",
+    "name": "MSBP.TO ETF"
+  },
+  {
+    "symbol": "MTBA.TO",
+    "name": "MTBA.TO ETF"
+  },
+  {
+    "symbol": "MTBB.TO",
+    "name": "MTBB.TO ETF"
+  },
+  {
+    "symbol": "MTRX.TO",
+    "name": "MTRX.TO ETF"
+  },
+  {
+    "symbol": "MUB.TO",
+    "name": "MUB.TO ETF"
+  },
+  {
+    "symbol": "MULC.TO",
+    "name": "MULC.TO ETF"
+  },
+  {
+    "symbol": "MULV.TO",
+    "name": "MULV.TO ETF"
+  },
+  {
+    "symbol": "MUMC.TO",
+    "name": "MUMC.TO ETF"
+  },
+  {
+    "symbol": "MUSA.TO",
+    "name": "MUSA.TO ETF"
+  },
+  {
+    "symbol": "MUSC.TO",
+    "name": "MUSC.TO ETF"
+  },
+  {
+    "symbol": "MUSD.U.TO",
+    "name": "MUSD.U.TO ETF"
+  },
+  {
+    "symbol": "MWLV.TO",
+    "name": "MWLV.TO ETF"
+  },
+  {
+    "symbol": "MWMN.NE",
+    "name": "MWMN.NE ETF"
+  },
+  {
+    "symbol": "NACO.TO",
+    "name": "NACO.TO ETF"
+  },
+  {
+    "symbol": "NBAL.TO",
+    "name": "NBAL.TO ETF"
+  },
+  {
+    "symbol": "NBIE.TO",
+    "name": "NBIE.TO ETF"
+  },
+  {
+    "symbol": "NBLD.TO",
+    "name": "NBLD.TO ETF"
+  },
+  {
+    "symbol": "NBND.TO",
+    "name": "NBND.TO ETF"
+  },
+  {
+    "symbol": "NBQC.TO",
+    "name": "NBQC.TO ETF"
+  },
+  {
+    "symbol": "NCNS.TO",
+    "name": "NCNS.TO ETF"
+  },
+  {
+    "symbol": "NCPB.TO",
+    "name": "NCPB.TO ETF"
+  },
+  {
+    "symbol": "NDIV.TO",
+    "name": "NDIV.TO ETF"
+  },
+  {
+    "symbol": "NGPE.TO",
+    "name": "NGPE.TO ETF"
+  },
+  {
+    "symbol": "NGRW.TO",
+    "name": "NGRW.TO ETF"
+  },
+  {
+    "symbol": "NHYB.TO",
+    "name": "NHYB.TO ETF"
+  },
+  {
+    "symbol": "NINT.TO",
+    "name": "NINT.TO ETF"
+  },
+  {
+    "symbol": "NMBL.TO",
+    "name": "NMBL.TO ETF"
+  },
+  {
+    "symbol": "NMGR.TO",
+    "name": "NMGR.TO ETF"
+  },
+  {
+    "symbol": "NMMO.TO",
+    "name": "NMMO.TO ETF"
+  },
+  {
+    "symbol": "NNRG.TO",
+    "name": "NNRG.TO ETF"
+  },
+  {
+    "symbol": "NPRF.TO",
+    "name": "NPRF.TO ETF"
+  },
+  {
+    "symbol": "NREA.TO",
+    "name": "NREA.TO ETF"
+  },
+  {
+    "symbol": "NRGY.TO",
+    "name": "NRGY.TO ETF"
+  },
+  {
+    "symbol": "NSAV.TO",
+    "name": "NSAV.TO ETF"
+  },
+  {
+    "symbol": "NSCB.TO",
+    "name": "NSCB.TO ETF"
+  },
+  {
+    "symbol": "NSCC.TO",
+    "name": "NSCC.TO ETF"
+  },
+  {
+    "symbol": "NSCE.TO",
+    "name": "NSCE.TO ETF"
+  },
+  {
+    "symbol": "NSDI.TO",
+    "name": "NSDI.TO ETF"
+  },
+  {
+    "symbol": "NSDU.TO",
+    "name": "NSDU.TO ETF"
+  },
+  {
+    "symbol": "NSGE.TO",
+    "name": "NSGE.TO ETF"
+  },
+  {
+    "symbol": "NSSB.TO",
+    "name": "NSSB.TO ETF"
+  },
+  {
+    "symbol": "NTGA.TO",
+    "name": "NTGA.TO ETF"
+  },
+  {
+    "symbol": "NTGB.TO",
+    "name": "NTGB.TO ETF"
+  },
+  {
+    "symbol": "NTGC.TO",
+    "name": "NTGC.TO ETF"
+  },
+  {
+    "symbol": "NTGD.TO",
+    "name": "NTGD.TO ETF"
+  },
+  {
+    "symbol": "NTGE.TO",
+    "name": "NTGE.TO ETF"
+  },
+  {
+    "symbol": "NTGF.TO",
+    "name": "NTGF.TO ETF"
+  },
+  {
+    "symbol": "NUBF.TO",
+    "name": "NUBF.TO ETF"
+  },
+  {
+    "symbol": "NUSA.TO",
+    "name": "NUSA.TO ETF"
+  },
+  {
+    "symbol": "ONEB.TO",
+    "name": "ONEB.TO ETF"
+  },
+  {
+    "symbol": "ONEQ.TO",
+    "name": "ONEQ.TO ETF"
+  },
+  {
+    "symbol": "OPPS.NE",
+    "name": "OPPS.NE ETF"
+  },
+  {
+    "symbol": "PABF.TO",
+    "name": "PABF.TO ETF"
+  },
+  {
+    "symbol": "PACF.TO",
+    "name": "PACF.TO ETF"
+  },
+  {
+    "symbol": "PAGF.TO",
+    "name": "PAGF.TO ETF"
+  },
+  {
+    "symbol": "PAYF.TO",
+    "name": "PAYF.TO ETF"
+  },
+  {
+    "symbol": "PBAL.TO",
+    "name": "PBAL.TO ETF"
+  },
+  {
+    "symbol": "PBD.TO",
+    "name": "PBD.TO ETF"
+  },
+  {
+    "symbol": "PCON.TO",
+    "name": "PCON.TO ETF"
+  },
+  {
+    "symbol": "PCOR.TO",
+    "name": "PCOR.TO ETF"
+  },
+  {
+    "symbol": "PDC.TO",
+    "name": "PDC.TO ETF"
+  },
+  {
+    "symbol": "PDF.TO",
+    "name": "PDF.TO ETF"
+  },
+  {
+    "symbol": "PFCB.TO",
+    "name": "PFCB.TO ETF"
+  },
+  {
+    "symbol": "PFIN.TO",
+    "name": "PFIN.TO ETF"
+  },
+  {
+    "symbol": "PFL.TO",
+    "name": "PFL.TO ETF"
+  },
+  {
+    "symbol": "PFRD.TO",
+    "name": "PFRD.TO ETF"
+  },
+  {
+    "symbol": "PGL.NE",
+    "name": "PGL.NE ETF"
+  },
+  {
+    "symbol": "PGRX.TO",
+    "name": "PGRX.TO ETF"
+  },
+  {
+    "symbol": "PHR.TO",
+    "name": "PHR.TO ETF"
+  },
+  {
+    "symbol": "PID.TO",
+    "name": "PID.TO ETF"
+  },
+  {
+    "symbol": "PIN.TO",
+    "name": "PIN.TO ETF"
+  },
+  {
+    "symbol": "PLDI.TO",
+    "name": "PLDI.TO ETF"
+  },
+  {
+    "symbol": "PLUS.NE",
+    "name": "PLUS.NE ETF"
+  },
+  {
+    "symbol": "PMIF.TO",
+    "name": "PMIF.TO ETF"
+  },
+  {
+    "symbol": "PMNT.TO",
+    "name": "PMNT.TO ETF"
+  },
+  {
+    "symbol": "PPLN.TO",
+    "name": "PPLN.TO ETF"
+  },
+  {
+    "symbol": "PR.TO",
+    "name": "PR.TO ETF"
+  },
+  {
+    "symbol": "PRA.TO",
+    "name": "PRA.TO ETF"
+  },
+  {
+    "symbol": "PREF.TO",
+    "name": "PREF.TO ETF"
+  },
+  {
+    "symbol": "PSA.TO",
+    "name": "PSA.TO ETF"
+  },
+  {
+    "symbol": "PSB.TO",
+    "name": "PSB.TO ETF"
+  },
+  {
+    "symbol": "PSU.U.TO",
+    "name": "PSU.U.TO ETF"
+  },
+  {
+    "symbol": "PXC.TO",
+    "name": "PXC.TO ETF"
+  },
+  {
+    "symbol": "PXS.TO",
+    "name": "PXS.TO ETF"
+  },
+  {
+    "symbol": "PXU.F.TO",
+    "name": "PXU.F.TO ETF"
+  },
+  {
+    "symbol": "PYF.TO",
+    "name": "PYF.TO ETF"
+  },
+  {
+    "symbol": "PZW.TO",
+    "name": "PZW.TO ETF"
+  },
+  {
+    "symbol": "QAH.TO",
+    "name": "QAH.TO ETF"
+  },
+  {
+    "symbol": "QASH.TO",
+    "name": "QASH.TO ETF"
+  },
+  {
+    "symbol": "QBB.TO",
+    "name": "QBB.TO ETF"
+  },
+  {
+    "symbol": "QCB.NE",
+    "name": "QCB.NE ETF"
+  },
+  {
+    "symbol": "QCE.TO",
+    "name": "QCE.TO ETF"
+  },
+  {
+    "symbol": "QCH.NE",
+    "name": "QCH.NE ETF"
+  },
+  {
+    "symbol": "QCLN.TO",
+    "name": "QCLN.TO ETF"
+  },
+  {
+    "symbol": "QCN.TO",
+    "name": "QCN.TO ETF"
+  },
+  {
+    "symbol": "QDX.TO",
+    "name": "QDX.TO ETF"
+  },
+  {
+    "symbol": "QDXB.TO",
+    "name": "QDXB.TO ETF"
+  },
+  {
+    "symbol": "QDXH.TO",
+    "name": "QDXH.TO ETF"
+  },
+  {
+    "symbol": "QEBH.TO",
+    "name": "QEBH.TO ETF"
+  },
+  {
+    "symbol": "QEBL.TO",
+    "name": "QEBL.TO ETF"
+  },
+  {
+    "symbol": "QEE.TO",
+    "name": "QEE.TO ETF"
+  },
+  {
+    "symbol": "QEF.NE",
+    "name": "QEF.NE ETF"
+  },
+  {
+    "symbol": "QHY.TO",
+    "name": "QHY.TO ETF"
+  },
+  {
+    "symbol": "QIF.NE",
+    "name": "QIF.NE ETF"
+  },
+  {
+    "symbol": "QINF.TO",
+    "name": "QINF.TO ETF"
+  },
+  {
+    "symbol": "QLB.TO",
+    "name": "QLB.TO ETF"
+  },
+  {
+    "symbol": "QMVP.TO",
+    "name": "QMVP.TO ETF"
+  },
+  {
+    "symbol": "QQC.TO",
+    "name": "QQC.TO ETF"
+  },
+  {
+    "symbol": "QQCE.TO",
+    "name": "QQCE.TO ETF"
+  },
+  {
+    "symbol": "QQEQ.TO",
+    "name": "QQEQ.TO ETF"
+  },
+  {
+    "symbol": "QQJR.TO",
+    "name": "QQJR.TO ETF"
+  },
+  {
+    "symbol": "QQQQ.TO",
+    "name": "QQQQ.TO ETF"
+  },
+  {
+    "symbol": "QQQT.TO",
+    "name": "QQQT.TO ETF"
+  },
+  {
+    "symbol": "QQQX.TO",
+    "name": "QQQX.TO ETF"
+  },
+  {
+    "symbol": "QRET.TO",
+    "name": "QRET.TO ETF"
+  },
+  {
+    "symbol": "QSB.TO",
+    "name": "QSB.TO ETF"
+  },
+  {
+    "symbol": "QTIP.NE",
+    "name": "QTIP.NE ETF"
+  },
+  {
+    "symbol": "QTLT.TO",
+    "name": "QTLT.TO ETF"
+  },
+  {
+    "symbol": "QUB.TO",
+    "name": "QUB.TO ETF"
+  },
+  {
+    "symbol": "QUIG.TO",
+    "name": "QUIG.TO ETF"
+  },
+  {
+    "symbol": "QUU.TO",
+    "name": "QUU.TO ETF"
+  },
+  {
+    "symbol": "QXM.TO",
+    "name": "QXM.TO ETF"
+  },
+  {
+    "symbol": "RAAA.TO",
+    "name": "RAAA.TO ETF"
+  },
+  {
+    "symbol": "RATE.TO",
+    "name": "RATE.TO ETF"
+  },
+  {
+    "symbol": "RBND.TO",
+    "name": "RBND.TO ETF"
+  },
+  {
+    "symbol": "RBO.TO",
+    "name": "RBO.TO ETF"
+  },
+  {
+    "symbol": "RBOT.TO",
+    "name": "RBOT.TO ETF"
+  },
+  {
+    "symbol": "RCAN.TO",
+    "name": "RCAN.TO ETF"
+  },
+  {
+    "symbol": "RCD.TO",
+    "name": "RCD.TO ETF"
+  },
+  {
+    "symbol": "RCEI.NE",
+    "name": "RCEI.NE ETF"
+  },
+  {
+    "symbol": "RCLO.NE",
+    "name": "RCLO.NE ETF"
+  },
+  {
+    "symbol": "RCNS.NE",
+    "name": "RCNS.NE ETF"
+  },
+  {
+    "symbol": "RCOR.NE",
+    "name": "RCOR.NE ETF"
+  },
+  {
+    "symbol": "RCTR.TO",
+    "name": "RCTR.TO ETF"
+  },
+  {
+    "symbol": "RDBH.TO",
+    "name": "RDBH.TO ETF"
+  },
+  {
+    "symbol": "RDE.NE",
+    "name": "RDE.NE ETF"
+  },
+  {
+    "symbol": "REIT.TO",
+    "name": "REIT.TO ETF"
+  },
+  {
+    "symbol": "REMD.NE",
+    "name": "REMD.NE ETF"
+  },
+  {
+    "symbol": "RENG.NE",
+    "name": "RENG.NE ETF"
+  },
+  {
+    "symbol": "RGCB.NE",
+    "name": "RGCB.NE ETF"
+  },
+  {
+    "symbol": "RGQP.TO",
+    "name": "RGQP.TO ETF"
+  },
+  {
+    "symbol": "RGQQ.TO",
+    "name": "RGQQ.TO ETF"
+  },
+  {
+    "symbol": "RGQR.TO",
+    "name": "RGQR.TO ETF"
+  },
+  {
+    "symbol": "RGQS.TO",
+    "name": "RGQS.TO ETF"
+  },
+  {
+    "symbol": "RGQT.TO",
+    "name": "RGQT.TO ETF"
+  },
+  {
+    "symbol": "RGQU.TO",
+    "name": "RGQU.TO ETF"
+  },
+  {
+    "symbol": "RHYB.NE",
+    "name": "RHYB.NE ETF"
+  },
+  {
+    "symbol": "RID.TO",
+    "name": "RID.TO ETF"
+  },
+  {
+    "symbol": "RIDH.TO",
+    "name": "RIDH.TO ETF"
+  },
+  {
+    "symbol": "RIFI.TO",
+    "name": "RIFI.TO ETF"
+  },
+  {
+    "symbol": "RIGE.TO",
+    "name": "RIGE.TO ETF"
+  },
+  {
+    "symbol": "RIIN.TO",
+    "name": "RIIN.TO ETF"
+  },
+  {
+    "symbol": "RING.TO",
+    "name": "RING.TO ETF"
+  },
+  {
+    "symbol": "RINT.NE",
+    "name": "RINT.NE ETF"
+  },
+  {
+    "symbol": "RIRA.TO",
+    "name": "RIRA.TO ETF"
+  },
+  {
+    "symbol": "RIT.TO",
+    "name": "RIT.TO ETF"
+  },
+  {
+    "symbol": "RLB.TO",
+    "name": "RLB.TO ETF"
+  },
+  {
+    "symbol": "RNAG.NE",
+    "name": "RNAG.NE ETF"
+  },
+  {
+    "symbol": "RNAV.NE",
+    "name": "RNAV.NE ETF"
+  },
+  {
+    "symbol": "RPD.TO",
+    "name": "RPD.TO ETF"
+  },
+  {
+    "symbol": "RPDH.TO",
+    "name": "RPDH.TO ETF"
+  },
+  {
+    "symbol": "RPLS.NE",
+    "name": "RPLS.NE ETF"
+  },
+  {
+    "symbol": "RPS.NE",
+    "name": "RPS.NE ETF"
+  },
+  {
+    "symbol": "RQR.TO",
+    "name": "RQR.TO ETF"
+  },
+  {
+    "symbol": "RQS.TO",
+    "name": "RQS.TO ETF"
+  },
+  {
+    "symbol": "RQT.TO",
+    "name": "RQT.TO ETF"
+  },
+  {
+    "symbol": "RQU.TO",
+    "name": "RQU.TO ETF"
+  },
+  {
+    "symbol": "RSSX.NE",
+    "name": "RSSX.NE ETF"
+  },
+  {
+    "symbol": "RTA.NE",
+    "name": "RTA.NE ETF"
+  },
+  {
+    "symbol": "RTT.NE",
+    "name": "RTT.NE ETF"
+  },
+  {
+    "symbol": "RUDB.TO",
+    "name": "RUDB.TO ETF"
+  },
+  {
+    "symbol": "RUDH.TO",
+    "name": "RUDH.TO ETF"
+  },
+  {
+    "symbol": "RUQP.TO",
+    "name": "RUQP.TO ETF"
+  },
+  {
+    "symbol": "RUQQ.TO",
+    "name": "RUQQ.TO ETF"
+  },
+  {
+    "symbol": "RUQR.TO",
+    "name": "RUQR.TO ETF"
+  },
+  {
+    "symbol": "RUQS.TO",
+    "name": "RUQS.TO ETF"
+  },
+  {
+    "symbol": "RUQT.TO",
+    "name": "RUQT.TO ETF"
+  },
+  {
+    "symbol": "RUQU.TO",
+    "name": "RUQU.TO ETF"
+  },
+  {
+    "symbol": "RUSA.TO",
+    "name": "RUSA.TO ETF"
+  },
+  {
+    "symbol": "RUSB.TO",
+    "name": "RUSB.TO ETF"
+  },
+  {
+    "symbol": "RUST.TO",
+    "name": "RUST.TO ETF"
+  },
+  {
+    "symbol": "SCDG.NE",
+    "name": "SCDG.NE ETF"
+  },
+  {
+    "symbol": "SCGI.NE",
+    "name": "SCGI.NE ETF"
+  },
+  {
+    "symbol": "SCGR.NE",
+    "name": "SCGR.NE ETF"
+  },
+  {
+    "symbol": "SDVY.NE",
+    "name": "SDVY.NE ETF"
+  },
+  {
+    "symbol": "SGRD.TO",
+    "name": "SGRD.TO ETF"
+  },
+  {
+    "symbol": "SHLD.TO",
+    "name": "SHLD.TO ETF"
+  },
+  {
+    "symbol": "SITB.NE",
+    "name": "SITB.NE ETF"
+  },
+  {
+    "symbol": "SITC.NE",
+    "name": "SITC.NE ETF"
+  },
+  {
+    "symbol": "SITE.NE",
+    "name": "SITE.NE ETF"
+  },
+  {
+    "symbol": "SITI.NE",
+    "name": "SITI.NE ETF"
+  },
+  {
+    "symbol": "SITU.NE",
+    "name": "SITU.NE ETF"
+  },
+  {
+    "symbol": "SLCA.TO",
+    "name": "SLCA.TO ETF"
+  },
+  {
+    "symbol": "SLGC.TO",
+    "name": "SLGC.TO ETF"
+  },
+  {
+    "symbol": "SLSC.TO",
+    "name": "SLSC.TO ETF"
+  },
+  {
+    "symbol": "SMVP.TO",
+    "name": "SMVP.TO ETF"
+  },
+  {
+    "symbol": "SOLX.TO",
+    "name": "SOLX.TO ETF"
+  },
+  {
+    "symbol": "SPLT.TO",
+    "name": "SPLT.TO ETF"
+  },
+  {
+    "symbol": "SRIB.NE",
+    "name": "SRIB.NE ETF"
+  },
+  {
+    "symbol": "SRIC.NE",
+    "name": "SRIC.NE ETF"
+  },
+  {
+    "symbol": "SRII.NE",
+    "name": "SRII.NE ETF"
+  },
+  {
+    "symbol": "SRIU.NE",
+    "name": "SRIU.NE ETF"
+  },
+  {
+    "symbol": "STPL.TO",
+    "name": "STPL.TO ETF"
+  },
+  {
+    "symbol": "STRT.NE",
+    "name": "STRT.NE ETF"
+  },
+  {
+    "symbol": "SYLD.TO",
+    "name": "SYLD.TO ETF"
+  },
+  {
+    "symbol": "TBAL.TO",
+    "name": "TBAL.TO ETF"
+  },
+  {
+    "symbol": "TBCF.TO",
+    "name": "TBCF.TO ETF"
+  },
+  {
+    "symbol": "TBCG.TO",
+    "name": "TBCG.TO ETF"
+  },
+  {
+    "symbol": "TBCH.TO",
+    "name": "TBCH.TO ETF"
+  },
+  {
+    "symbol": "TBCI.TO",
+    "name": "TBCI.TO ETF"
+  },
+  {
+    "symbol": "TBCJ.TO",
+    "name": "TBCJ.TO ETF"
+  },
+  {
+    "symbol": "TBCK.TO",
+    "name": "TBCK.TO ETF"
+  },
+  {
+    "symbol": "TBIL.TO",
+    "name": "TBIL.TO ETF"
+  },
+  {
+    "symbol": "TBNK.TO",
+    "name": "TBNK.TO ETF"
+  },
+  {
+    "symbol": "TBUF.U.TO",
+    "name": "TBUF.U.TO ETF"
+  },
+  {
+    "symbol": "TBUG.U.TO",
+    "name": "TBUG.U.TO ETF"
+  },
+  {
+    "symbol": "TCCB.TO",
+    "name": "TCCB.TO ETF"
+  },
+  {
+    "symbol": "TCLB.TO",
+    "name": "TCLB.TO ETF"
+  },
+  {
+    "symbol": "TCLV.TO",
+    "name": "TCLV.TO ETF"
+  },
+  {
+    "symbol": "TCON.TO",
+    "name": "TCON.TO ETF"
+  },
+  {
+    "symbol": "TCSB.TO",
+    "name": "TCSB.TO ETF"
+  },
+  {
+    "symbol": "TCSH.TO",
+    "name": "TCSH.TO ETF"
+  },
+  {
+    "symbol": "TDB.TO",
+    "name": "TDB.TO ETF"
+  },
+  {
+    "symbol": "TDNA.TO",
+    "name": "TDNA.TO ETF"
+  },
+  {
+    "symbol": "TDOC.TO",
+    "name": "TDOC.TO ETF"
+  },
+  {
+    "symbol": "TEC.TO",
+    "name": "TEC.TO ETF"
+  },
+  {
+    "symbol": "TECH.TO",
+    "name": "TECH.TO ETF"
+  },
+  {
+    "symbol": "TECI.TO",
+    "name": "TECI.TO ETF"
+  },
+  {
+    "symbol": "TECX.TO",
+    "name": "TECX.TO ETF"
+  },
+  {
+    "symbol": "TEQT.TO",
+    "name": "TEQT.TO ETF"
+  },
+  {
+    "symbol": "TERM.TO",
+    "name": "TERM.TO ETF"
+  },
+  {
+    "symbol": "TGFI.TO",
+    "name": "TGFI.TO ETF"
+  },
+  {
+    "symbol": "TGGR.TO",
+    "name": "TGGR.TO ETF"
+  },
+  {
+    "symbol": "TGRE.TO",
+    "name": "TGRE.TO ETF"
+  },
+  {
+    "symbol": "TGRO.TO",
+    "name": "TGRO.TO ETF"
+  },
+  {
+    "symbol": "THE.TO",
+    "name": "THE.TO ETF"
+  },
+  {
+    "symbol": "THU.TO",
+    "name": "THU.TO ETF"
+  },
+  {
+    "symbol": "TIF.TO",
+    "name": "TIF.TO ETF"
+  },
+  {
+    "symbol": "TILV.TO",
+    "name": "TILV.TO ETF"
+  },
+  {
+    "symbol": "TINF.TO",
+    "name": "TINF.TO ETF"
+  },
+  {
+    "symbol": "TLTX.TO",
+    "name": "TLTX.TO ETF"
+  },
+  {
+    "symbol": "TLV.TO",
+    "name": "TLV.TO ETF"
+  },
+  {
+    "symbol": "TPE.TO",
+    "name": "TPE.TO ETF"
+  },
+  {
+    "symbol": "TPRF.TO",
+    "name": "TPRF.TO ETF"
+  },
+  {
+    "symbol": "TPU.TO",
+    "name": "TPU.TO ETF"
+  },
+  {
+    "symbol": "TQCD.TO",
+    "name": "TQCD.TO ETF"
+  },
+  {
+    "symbol": "TQGD.TO",
+    "name": "TQGD.TO ETF"
+  },
+  {
+    "symbol": "TQGM.TO",
+    "name": "TQGM.TO ETF"
+  },
+  {
+    "symbol": "TQID.TO",
+    "name": "TQID.TO ETF"
+  },
+  {
+    "symbol": "TQSM.TO",
+    "name": "TQSM.TO ETF"
+  },
+  {
+    "symbol": "TSTB.TO",
+    "name": "TSTB.TO ETF"
+  },
+  {
+    "symbol": "TSTX.TO",
+    "name": "TSTX.TO ETF"
+  },
+  {
+    "symbol": "TTP.TO",
+    "name": "TTP.TO ETF"
+  },
+  {
+    "symbol": "TTTX.TO",
+    "name": "TTTX.TO ETF"
+  },
+  {
+    "symbol": "TUHY.TO",
+    "name": "TUHY.TO ETF"
+  },
+  {
+    "symbol": "TULB.TO",
+    "name": "TULB.TO ETF"
+  },
+  {
+    "symbol": "TULV.TO",
+    "name": "TULV.TO ETF"
+  },
+  {
+    "symbol": "TUSB.TO",
+    "name": "TUSB.TO ETF"
+  },
+  {
+    "symbol": "TUSD.U.TO",
+    "name": "TUSD.U.TO ETF"
+  },
+  {
+    "symbol": "TUST.TO",
+    "name": "TUST.TO ETF"
+  },
+  {
+    "symbol": "UBIL.U.TO",
+    "name": "UBIL.U.TO ETF"
+  },
+  {
+    "symbol": "UBNK.TO",
+    "name": "UBNK.TO ETF"
+  },
+  {
+    "symbol": "UCSH.U.TO",
+    "name": "UCSH.U.TO ETF"
+  },
+  {
+    "symbol": "UDEF.TO",
+    "name": "UDEF.TO ETF"
+  },
+  {
+    "symbol": "UDIV.TO",
+    "name": "UDIV.TO ETF"
+  },
+  {
+    "symbol": "ULV.F.TO",
+    "name": "ULV.F.TO ETF"
+  },
+  {
+    "symbol": "UMI.TO",
+    "name": "UMI.TO ETF"
+  },
+  {
+    "symbol": "UMNY.U.TO",
+    "name": "UMNY.U.TO ETF"
+  },
+  {
+    "symbol": "UMRT.TO",
+    "name": "UMRT.TO ETF"
+  },
+  {
+    "symbol": "UMVP.TO",
+    "name": "UMVP.TO ETF"
+  },
+  {
+    "symbol": "USSX.TO",
+    "name": "USSX.TO ETF"
+  },
+  {
+    "symbol": "UTIL.TO",
+    "name": "UTIL.TO ETF"
+  },
+  {
+    "symbol": "VA.TO",
+    "name": "VA.TO ETF"
+  },
+  {
+    "symbol": "VAB.TO",
+    "name": "VAB.TO ETF"
+  },
+  {
+    "symbol": "VBAL.TO",
+    "name": "VBAL.TO ETF"
+  },
+  {
+    "symbol": "VBG.NE",
+    "name": "VBG.NE ETF"
+  },
+  {
+    "symbol": "VBU.NE",
+    "name": "VBU.NE ETF"
+  },
+  {
+    "symbol": "VCB.TO",
+    "name": "VCB.TO ETF"
+  },
+  {
+    "symbol": "VCE.TO",
+    "name": "VCE.TO ETF"
+  },
+  {
+    "symbol": "VCIP.TO",
+    "name": "VCIP.TO ETF"
+  },
+  {
+    "symbol": "VCN.TO",
+    "name": "VCN.TO ETF"
+  },
+  {
+    "symbol": "VCNS.TO",
+    "name": "VCNS.TO ETF"
+  },
+  {
+    "symbol": "VDU.TO",
+    "name": "VDU.TO ETF"
+  },
+  {
+    "symbol": "VDY.TO",
+    "name": "VDY.TO ETF"
+  },
+  {
+    "symbol": "VE.TO",
+    "name": "VE.TO ETF"
+  },
+  {
+    "symbol": "VEE.TO",
+    "name": "VEE.TO ETF"
+  },
+  {
+    "symbol": "VEF.TO",
+    "name": "VEF.TO ETF"
+  },
+  {
+    "symbol": "VEQT.TO",
+    "name": "VEQT.TO ETF"
+  },
+  {
+    "symbol": "VFV.TO",
+    "name": "VFV.TO ETF"
+  },
+  {
+    "symbol": "VGAB.NE",
+    "name": "VGAB.NE ETF"
+  },
+  {
+    "symbol": "VGG.TO",
+    "name": "VGG.TO ETF"
+  },
+  {
+    "symbol": "VGH.TO",
+    "name": "VGH.TO ETF"
+  },
+  {
+    "symbol": "VGRO.TO",
+    "name": "VGRO.TO ETF"
+  },
+  {
+    "symbol": "VGV.TO",
+    "name": "VGV.TO ETF"
+  },
+  {
+    "symbol": "VI.TO",
+    "name": "VI.TO ETF"
+  },
+  {
+    "symbol": "VIDY.TO",
+    "name": "VIDY.TO ETF"
+  },
+  {
+    "symbol": "VIGG.TO",
+    "name": "VIGG.TO ETF"
+  },
+  {
+    "symbol": "VIU.TO",
+    "name": "VIU.TO ETF"
+  },
+  {
+    "symbol": "VLB.TO",
+    "name": "VLB.TO ETF"
+  },
+  {
+    "symbol": "VMO.TO",
+    "name": "VMO.TO ETF"
+  },
+  {
+    "symbol": "VRE.TO",
+    "name": "VRE.TO ETF"
+  },
+  {
+    "symbol": "VRIF.TO",
+    "name": "VRIF.TO ETF"
+  },
+  {
+    "symbol": "VSB.TO",
+    "name": "VSB.TO ETF"
+  },
+  {
+    "symbol": "VSC.TO",
+    "name": "VSC.TO ETF"
+  },
+  {
+    "symbol": "VSP.TO",
+    "name": "VSP.TO ETF"
+  },
+  {
+    "symbol": "VUDH.TO",
+    "name": "VUDH.TO ETF"
+  },
+  {
+    "symbol": "VUDV.TO",
+    "name": "VUDV.TO ETF"
+  },
+  {
+    "symbol": "VUN.TO",
+    "name": "VUN.TO ETF"
+  },
+  {
+    "symbol": "VUS.TO",
+    "name": "VUS.TO ETF"
+  },
+  {
+    "symbol": "VVL.TO",
+    "name": "VVL.TO ETF"
+  },
+  {
+    "symbol": "VVO.TO",
+    "name": "VVO.TO ETF"
+  },
+  {
+    "symbol": "VVSG.TO",
+    "name": "VVSG.TO ETF"
+  },
+  {
+    "symbol": "VXC.TO",
+    "name": "VXC.TO ETF"
+  },
+  {
+    "symbol": "VXM.TO",
+    "name": "VXM.TO ETF"
+  },
+  {
+    "symbol": "WAAV.TO",
+    "name": "WAAV.TO ETF"
+  },
+  {
+    "symbol": "WSGB.NE",
+    "name": "WSGB.NE ETF"
+  },
+  {
+    "symbol": "WSHR.NE",
+    "name": "WSHR.NE ETF"
+  },
+  {
+    "symbol": "WSRD.TO",
+    "name": "WSRD.TO ETF"
+  },
+  {
+    "symbol": "WSRI.TO",
+    "name": "WSRI.TO ETF"
+  },
+  {
+    "symbol": "WXM.TO",
+    "name": "WXM.TO ETF"
+  },
+  {
+    "symbol": "XAD.TO",
+    "name": "XAD.TO ETF"
+  },
+  {
+    "symbol": "XAGG.TO",
+    "name": "XAGG.TO ETF"
+  },
+  {
+    "symbol": "XAGH.TO",
+    "name": "XAGH.TO ETF"
+  },
+  {
+    "symbol": "XAW.TO",
+    "name": "XAW.TO ETF"
+  },
+  {
+    "symbol": "XBAL.TO",
+    "name": "XBAL.TO ETF"
+  },
+  {
+    "symbol": "XBB.TO",
+    "name": "XBB.TO ETF"
+  },
+  {
+    "symbol": "XBM.TO",
+    "name": "XBM.TO ETF"
+  },
+  {
+    "symbol": "XCB.TO",
+    "name": "XCB.TO ETF"
+  },
+  {
+    "symbol": "XCBG.TO",
+    "name": "XCBG.TO ETF"
+  },
+  {
+    "symbol": "XCBU.TO",
+    "name": "XCBU.TO ETF"
+  },
+  {
+    "symbol": "XCD.TO",
+    "name": "XCD.TO ETF"
+  },
+  {
+    "symbol": "XCG.TO",
+    "name": "XCG.TO ETF"
+  },
+  {
+    "symbol": "XCH.TO",
+    "name": "XCH.TO ETF"
+  },
+  {
+    "symbol": "XCHP.TO",
+    "name": "XCHP.TO ETF"
+  },
+  {
+    "symbol": "XCLN.TO",
+    "name": "XCLN.TO ETF"
+  },
+  {
+    "symbol": "XCNS.TO",
+    "name": "XCNS.TO ETF"
+  },
+  {
+    "symbol": "XCS.TO",
+    "name": "XCS.TO ETF"
+  },
+  {
+    "symbol": "XCSR.TO",
+    "name": "XCSR.TO ETF"
+  },
+  {
+    "symbol": "XCV.TO",
+    "name": "XCV.TO ETF"
+  },
+  {
+    "symbol": "XDG.TO",
+    "name": "XDG.TO ETF"
+  },
+  {
+    "symbol": "XDGH.TO",
+    "name": "XDGH.TO ETF"
+  },
+  {
+    "symbol": "XDIV.TO",
+    "name": "XDIV.TO ETF"
+  },
+  {
+    "symbol": "XDNA.TO",
+    "name": "XDNA.TO ETF"
+  },
+  {
+    "symbol": "XDRV.TO",
+    "name": "XDRV.TO ETF"
+  },
+  {
+    "symbol": "XDSR.TO",
+    "name": "XDSR.TO ETF"
+  },
+  {
+    "symbol": "XDU.TO",
+    "name": "XDU.TO ETF"
+  },
+  {
+    "symbol": "XDUH.TO",
+    "name": "XDUH.TO ETF"
+  },
+  {
+    "symbol": "XDV.TO",
+    "name": "XDV.TO ETF"
+  },
+  {
+    "symbol": "XEB.TO",
+    "name": "XEB.TO ETF"
+  },
+  {
+    "symbol": "XEC.TO",
+    "name": "XEC.TO ETF"
+  },
+  {
+    "symbol": "XEF.TO",
+    "name": "XEF.TO ETF"
+  },
+  {
+    "symbol": "XEG.TO",
+    "name": "XEG.TO ETF"
+  },
+  {
+    "symbol": "XEH.TO",
+    "name": "XEH.TO ETF"
+  },
+  {
+    "symbol": "XEI.TO",
+    "name": "XEI.TO ETF"
+  },
+  {
+    "symbol": "XEM.TO",
+    "name": "XEM.TO ETF"
+  },
+  {
+    "symbol": "XEMC.TO",
+    "name": "XEMC.TO ETF"
+  },
+  {
+    "symbol": "XEN.TO",
+    "name": "XEN.TO ETF"
+  },
+  {
+    "symbol": "XEQT.TO",
+    "name": "XEQT.TO ETF"
+  },
+  {
+    "symbol": "XESG.TO",
+    "name": "XESG.TO ETF"
+  },
+  {
+    "symbol": "XETM.TO",
+    "name": "XETM.TO ETF"
+  },
+  {
+    "symbol": "XEU.TO",
+    "name": "XEU.TO ETF"
+  },
+  {
+    "symbol": "XEXP.TO",
+    "name": "XEXP.TO ETF"
+  },
+  {
+    "symbol": "XFH.TO",
+    "name": "XFH.TO ETF"
+  },
+  {
+    "symbol": "XFLB.TO",
+    "name": "XFLB.TO ETF"
+  },
+  {
+    "symbol": "XFLI.TO",
+    "name": "XFLI.TO ETF"
+  },
+  {
+    "symbol": "XFLX.TO",
+    "name": "XFLX.TO ETF"
+  },
+  {
+    "symbol": "XFR.TO",
+    "name": "XFR.TO ETF"
+  },
+  {
+    "symbol": "XGB.TO",
+    "name": "XGB.TO ETF"
+  },
+  {
+    "symbol": "XGD.TO",
+    "name": "XGD.TO ETF"
+  },
+  {
+    "symbol": "XGGB.NE",
+    "name": "XGGB.NE ETF"
+  },
+  {
+    "symbol": "XGI.TO",
+    "name": "XGI.TO ETF"
+  },
+  {
+    "symbol": "XGRO.TO",
+    "name": "XGRO.TO ETF"
+  },
+  {
+    "symbol": "XHAK.TO",
+    "name": "XHAK.TO ETF"
+  },
+  {
+    "symbol": "XHB.TO",
+    "name": "XHB.TO ETF"
+  },
+  {
+    "symbol": "XHC.TO",
+    "name": "XHC.TO ETF"
+  },
+  {
+    "symbol": "XHD.TO",
+    "name": "XHD.TO ETF"
+  },
+  {
+    "symbol": "XHU.TO",
+    "name": "XHU.TO ETF"
+  },
+  {
+    "symbol": "XHY.TO",
+    "name": "XHY.TO ETF"
+  },
+  {
+    "symbol": "XIC.TO",
+    "name": "XIC.TO ETF"
+  },
+  {
+    "symbol": "XID.TO",
+    "name": "XID.TO ETF"
+  },
+  {
+    "symbol": "XIG.TO",
+    "name": "XIG.TO ETF"
+  },
+  {
+    "symbol": "XIGS.TO",
+    "name": "XIGS.TO ETF"
+  },
+  {
+    "symbol": "XIN.TO",
+    "name": "XIN.TO ETF"
+  },
+  {
+    "symbol": "XINC.TO",
+    "name": "XINC.TO ETF"
+  },
+  {
+    "symbol": "XIU.TO",
+    "name": "XIU.TO ETF"
+  },
+  {
+    "symbol": "XLB.TO",
+    "name": "XLB.TO ETF"
+  },
+  {
+    "symbol": "XMA.TO",
+    "name": "XMA.TO ETF"
+  },
+  {
+    "symbol": "XMC.TO",
+    "name": "XMC.TO ETF"
+  },
+  {
+    "symbol": "XMD.TO",
+    "name": "XMD.TO ETF"
+  },
+  {
+    "symbol": "XMH.TO",
+    "name": "XMH.TO ETF"
+  },
+  {
+    "symbol": "XMI.TO",
+    "name": "XMI.TO ETF"
+  },
+  {
+    "symbol": "XML.TO",
+    "name": "XML.TO ETF"
+  },
+  {
+    "symbol": "XMM.TO",
+    "name": "XMM.TO ETF"
+  },
+  {
+    "symbol": "XMS.TO",
+    "name": "XMS.TO ETF"
+  },
+  {
+    "symbol": "XMTM.TO",
+    "name": "XMTM.TO ETF"
+  },
+  {
+    "symbol": "XMU.TO",
+    "name": "XMU.TO ETF"
+  },
+  {
+    "symbol": "XMV.TO",
+    "name": "XMV.TO ETF"
+  },
+  {
+    "symbol": "XMW.TO",
+    "name": "XMW.TO ETF"
+  },
+  {
+    "symbol": "XMY.TO",
+    "name": "XMY.TO ETF"
+  },
+  {
+    "symbol": "XPF.TO",
+    "name": "XPF.TO ETF"
+  },
+  {
+    "symbol": "XQB.TO",
+    "name": "XQB.TO ETF"
+  },
+  {
+    "symbol": "XQLT.TO",
+    "name": "XQLT.TO ETF"
+  },
+  {
+    "symbol": "XQQ.TO",
+    "name": "XQQ.TO ETF"
+  },
+  {
+    "symbol": "XQQU.TO",
+    "name": "XQQU.TO ETF"
+  },
+  {
+    "symbol": "XRB.TO",
+    "name": "XRB.TO ETF"
+  },
+  {
+    "symbol": "XRE.TO",
+    "name": "XRE.TO ETF"
+  },
+  {
+    "symbol": "XSAB.TO",
+    "name": "XSAB.TO ETF"
+  },
+  {
+    "symbol": "XSB.TO",
+    "name": "XSB.TO ETF"
+  },
+  {
+    "symbol": "XSC.TO",
+    "name": "XSC.TO ETF"
+  },
+  {
+    "symbol": "XSE.TO",
+    "name": "XSE.TO ETF"
+  },
+  {
+    "symbol": "XSEA.TO",
+    "name": "XSEA.TO ETF"
+  },
+  {
+    "symbol": "XSEM.TO",
+    "name": "XSEM.TO ETF"
+  },
+  {
+    "symbol": "XSH.TO",
+    "name": "XSH.TO ETF"
+  },
+  {
+    "symbol": "XSHG.TO",
+    "name": "XSHG.TO ETF"
+  },
+  {
+    "symbol": "XSHU.TO",
+    "name": "XSHU.TO ETF"
+  },
+  {
+    "symbol": "XSI.TO",
+    "name": "XSI.TO ETF"
+  },
+  {
+    "symbol": "XSMB.TO",
+    "name": "XSMB.TO ETF"
+  },
+  {
+    "symbol": "XSMC.TO",
+    "name": "XSMC.TO ETF"
+  },
+  {
+    "symbol": "XSMH.TO",
+    "name": "XSMH.TO ETF"
+  },
+  {
+    "symbol": "XSP.TO",
+    "name": "XSP.TO ETF"
+  },
+  {
+    "symbol": "XSPC.TO",
+    "name": "XSPC.TO ETF"
+  },
+  {
+    "symbol": "XST.TO",
+    "name": "XST.TO ETF"
+  },
+  {
+    "symbol": "XSTB.TO",
+    "name": "XSTB.TO ETF"
+  },
+  {
+    "symbol": "XSTH.TO",
+    "name": "XSTH.TO ETF"
+  },
+  {
+    "symbol": "XSTP.TO",
+    "name": "XSTP.TO ETF"
+  },
+  {
+    "symbol": "XSU.TO",
+    "name": "XSU.TO ETF"
+  },
+  {
+    "symbol": "XSUS.TO",
+    "name": "XSUS.TO ETF"
+  },
+  {
+    "symbol": "XTLH.TO",
+    "name": "XTLH.TO ETF"
+  },
+  {
+    "symbol": "XTLT.TO",
+    "name": "XTLT.TO ETF"
+  },
+  {
+    "symbol": "XTOH.TO",
+    "name": "XTOH.TO ETF"
+  },
+  {
+    "symbol": "XTOT.TO",
+    "name": "XTOT.TO ETF"
+  },
+  {
+    "symbol": "XTR.TO",
+    "name": "XTR.TO ETF"
+  },
+  {
+    "symbol": "XUH.TO",
+    "name": "XUH.TO ETF"
+  },
+  {
+    "symbol": "XUS.TO",
+    "name": "XUS.TO ETF"
+  },
+  {
+    "symbol": "XUSC.TO",
+    "name": "XUSC.TO ETF"
+  },
+  {
+    "symbol": "XUSF.TO",
+    "name": "XUSF.TO ETF"
+  },
+  {
+    "symbol": "XUSR.TO",
+    "name": "XUSR.TO ETF"
+  },
+  {
+    "symbol": "XUT.TO",
+    "name": "XUT.TO ETF"
+  },
+  {
+    "symbol": "XUU.TO",
+    "name": "XUU.TO ETF"
+  },
+  {
+    "symbol": "XVLU.TO",
+    "name": "XVLU.TO ETF"
+  },
+  {
+    "symbol": "XWD.TO",
+    "name": "XWD.TO ETF"
+  },
+  {
+    "symbol": "ZAAA.NE",
+    "name": "ZAAA.NE ETF"
+  },
+  {
+    "symbol": "ZAG.TO",
+    "name": "ZAG.TO ETF"
+  },
+  {
+    "symbol": "ZBAL.TO",
+    "name": "ZBAL.TO ETF"
+  },
+  {
+    "symbol": "ZBBZ.NE",
+    "name": "ZBBZ.NE ETF"
+  },
+  {
+    "symbol": "ZBCB.NE",
+    "name": "ZBCB.NE ETF"
+  },
+  {
+    "symbol": "ZBDU.NE",
+    "name": "ZBDU.NE ETF"
+  },
+  {
+    "symbol": "ZBEC.NE",
+    "name": "ZBEC.NE ETF"
+  },
+  {
+    "symbol": "ZBEU.NE",
+    "name": "ZBEU.NE ETF"
+  },
+  {
+    "symbol": "ZBK.TO",
+    "name": "ZBK.TO ETF"
+  },
+  {
+    "symbol": "ZBVU.NE",
+    "name": "ZBVU.NE ETF"
+  },
+  {
+    "symbol": "ZCB.TO",
+    "name": "ZCB.TO ETF"
+  },
+  {
+    "symbol": "ZCDB.TO",
+    "name": "ZCDB.TO ETF"
+  },
+  {
+    "symbol": "ZCH.TO",
+    "name": "ZCH.TO ETF"
+  },
+  {
+    "symbol": "ZCLN.TO",
+    "name": "ZCLN.TO ETF"
+  },
+  {
+    "symbol": "ZCM.TO",
+    "name": "ZCM.TO ETF"
+  },
+  {
+    "symbol": "ZCN.TO",
+    "name": "ZCN.TO ETF"
+  },
+  {
+    "symbol": "ZCOM.NE",
+    "name": "ZCOM.NE ETF"
+  },
+  {
+    "symbol": "ZCON.TO",
+    "name": "ZCON.TO ETF"
+  },
+  {
+    "symbol": "ZCPB.NE",
+    "name": "ZCPB.NE ETF"
+  },
+  {
+    "symbol": "ZCS.TO",
+    "name": "ZCS.TO ETF"
+  },
+  {
+    "symbol": "ZDB.TO",
+    "name": "ZDB.TO ETF"
+  },
+  {
+    "symbol": "ZDH.TO",
+    "name": "ZDH.TO ETF"
+  },
+  {
+    "symbol": "ZDI.TO",
+    "name": "ZDI.TO ETF"
+  },
+  {
+    "symbol": "ZDIV.TO",
+    "name": "ZDIV.TO ETF"
+  },
+  {
+    "symbol": "ZDJ.TO",
+    "name": "ZDJ.TO ETF"
+  },
+  {
+    "symbol": "ZDM.TO",
+    "name": "ZDM.TO ETF"
+  },
+  {
+    "symbol": "ZDV.TO",
+    "name": "ZDV.TO ETF"
+  },
+  {
+    "symbol": "ZDY.TO",
+    "name": "ZDY.TO ETF"
+  },
+  {
+    "symbol": "ZEA.TO",
+    "name": "ZEA.TO ETF"
+  },
+  {
+    "symbol": "ZEF.TO",
+    "name": "ZEF.TO ETF"
+  },
+  {
+    "symbol": "ZEM.TO",
+    "name": "ZEM.TO ETF"
+  },
+  {
+    "symbol": "ZEO.TO",
+    "name": "ZEO.TO ETF"
+  },
+  {
+    "symbol": "ZEQ.TO",
+    "name": "ZEQ.TO ETF"
+  },
+  {
+    "symbol": "ZEQL.TO",
+    "name": "ZEQL.TO ETF"
+  },
+  {
+    "symbol": "ZEQT.TO",
+    "name": "ZEQT.TO ETF"
+  },
+  {
+    "symbol": "ZESG.TO",
+    "name": "ZESG.TO ETF"
+  },
+  {
+    "symbol": "ZESM.TO",
+    "name": "ZESM.TO ETF"
+  },
+  {
+    "symbol": "ZFC.TO",
+    "name": "ZFC.TO ETF"
+  },
+  {
+    "symbol": "ZFH.TO",
+    "name": "ZFH.TO ETF"
+  },
+  {
+    "symbol": "ZFL.TO",
+    "name": "ZFL.TO ETF"
+  },
+  {
+    "symbol": "ZFM.TO",
+    "name": "ZFM.TO ETF"
+  },
+  {
+    "symbol": "ZFN.TO",
+    "name": "ZFN.TO ETF"
+  },
+  {
+    "symbol": "ZFS.TO",
+    "name": "ZFS.TO ETF"
+  },
+  {
+    "symbol": "ZGB.TO",
+    "name": "ZGB.TO ETF"
+  },
+  {
+    "symbol": "ZGD.TO",
+    "name": "ZGD.TO ETF"
+  },
+  {
+    "symbol": "ZGDV.NE",
+    "name": "ZGDV.NE ETF"
+  },
+  {
+    "symbol": "ZGEQ.NE",
+    "name": "ZGEQ.NE ETF"
+  },
+  {
+    "symbol": "ZGI.TO",
+    "name": "ZGI.TO ETF"
+  },
+  {
+    "symbol": "ZGIF.NE",
+    "name": "ZGIF.NE ETF"
+  },
+  {
+    "symbol": "ZGIN.NE",
+    "name": "ZGIN.NE ETF"
+  },
+  {
+    "symbol": "ZGQ.TO",
+    "name": "ZGQ.TO ETF"
+  },
+  {
+    "symbol": "ZGRO.TO",
+    "name": "ZGRO.TO ETF"
+  },
+  {
+    "symbol": "ZGRT.NE",
+    "name": "ZGRT.NE ETF"
+  },
+  {
+    "symbol": "ZGSB.NE",
+    "name": "ZGSB.NE ETF"
+  },
+  {
+    "symbol": "ZHC.NE",
+    "name": "ZHC.NE ETF"
+  },
+  {
+    "symbol": "ZHP.TO",
+    "name": "ZHP.TO ETF"
+  },
+  {
+    "symbol": "ZHU.TO",
+    "name": "ZHU.TO ETF"
+  },
+  {
+    "symbol": "ZHY.TO",
+    "name": "ZHY.TO ETF"
+  },
+  {
+    "symbol": "ZIC.TO",
+    "name": "ZIC.TO ETF"
+  },
+  {
+    "symbol": "ZID.TO",
+    "name": "ZID.TO ETF"
+  },
+  {
+    "symbol": "ZIN.TO",
+    "name": "ZIN.TO ETF"
+  },
+  {
+    "symbol": "ZIQ.TO",
+    "name": "ZIQ.TO ETF"
+  },
+  {
+    "symbol": "ZIU.TO",
+    "name": "ZIU.TO ETF"
+  },
+  {
+    "symbol": "ZJG.TO",
+    "name": "ZJG.TO ETF"
+  },
+  {
+    "symbol": "ZJK.TO",
+    "name": "ZJK.TO ETF"
+  },
+  {
+    "symbol": "ZJPN.TO",
+    "name": "ZJPN.TO ETF"
+  },
+  {
+    "symbol": "ZLB.TO",
+    "name": "ZLB.TO ETF"
+  },
+  {
+    "symbol": "ZLC.TO",
+    "name": "ZLC.TO ETF"
+  },
+  {
+    "symbol": "ZLD.TO",
+    "name": "ZLD.TO ETF"
+  },
+  {
+    "symbol": "ZLE.TO",
+    "name": "ZLE.TO ETF"
+  },
+  {
+    "symbol": "ZLH.TO",
+    "name": "ZLH.TO ETF"
+  },
+  {
+    "symbol": "ZLI.TO",
+    "name": "ZLI.TO ETF"
+  },
+  {
+    "symbol": "ZLU.TO",
+    "name": "ZLU.TO ETF"
+  },
+  {
+    "symbol": "ZMBS.TO",
+    "name": "ZMBS.TO ETF"
+  },
+  {
+    "symbol": "ZMI.TO",
+    "name": "ZMI.TO ETF"
+  },
+  {
+    "symbol": "ZMID.TO",
+    "name": "ZMID.TO ETF"
+  },
+  {
+    "symbol": "ZMLG.NE",
+    "name": "ZMLG.NE ETF"
+  },
+  {
+    "symbol": "ZMMK.TO",
+    "name": "ZMMK.TO ETF"
+  },
+  {
+    "symbol": "ZMP.TO",
+    "name": "ZMP.TO ETF"
+  },
+  {
+    "symbol": "ZMPC.NE",
+    "name": "ZMPC.NE ETF"
+  },
+  {
+    "symbol": "ZMPG.NE",
+    "name": "ZMPG.NE ETF"
+  },
+  {
+    "symbol": "ZMPU.NE",
+    "name": "ZMPU.NE ETF"
+  },
+  {
+    "symbol": "ZMPW.NE",
+    "name": "ZMPW.NE ETF"
+  },
+  {
+    "symbol": "ZMSB.NE",
+    "name": "ZMSB.NE ETF"
+  },
+  {
+    "symbol": "ZMT.TO",
+    "name": "ZMT.TO ETF"
+  },
+  {
+    "symbol": "ZMU.TO",
+    "name": "ZMU.TO ETF"
+  },
+  {
+    "symbol": "ZNQ.TO",
+    "name": "ZNQ.TO ETF"
+  },
+  {
+    "symbol": "ZPH.TO",
+    "name": "ZPH.TO ETF"
+  },
+  {
+    "symbol": "ZPL.TO",
+    "name": "ZPL.TO ETF"
+  },
+  {
+    "symbol": "ZPR.TO",
+    "name": "ZPR.TO ETF"
+  },
+  {
+    "symbol": "ZPS.TO",
+    "name": "ZPS.TO ETF"
+  },
+  {
+    "symbol": "ZPW.TO",
+    "name": "ZPW.TO ETF"
+  },
+  {
+    "symbol": "ZQB.TO",
+    "name": "ZQB.TO ETF"
+  },
+  {
+    "symbol": "ZQQ.TO",
+    "name": "ZQQ.TO ETF"
+  },
+  {
+    "symbol": "ZRE.TO",
+    "name": "ZRE.TO ETF"
+  },
+  {
+    "symbol": "ZRR.TO",
+    "name": "ZRR.TO ETF"
+  },
+  {
+    "symbol": "ZSB.TO",
+    "name": "ZSB.TO ETF"
+  },
+  {
+    "symbol": "ZSDB.TO",
+    "name": "ZSDB.TO ETF"
+  },
+  {
+    "symbol": "ZSML.TO",
+    "name": "ZSML.TO ETF"
+  },
+  {
+    "symbol": "ZSP.TO",
+    "name": "ZSP.TO ETF"
+  },
+  {
+    "symbol": "ZST.TO",
+    "name": "ZST.TO ETF"
+  },
+  {
+    "symbol": "ZSU.TO",
+    "name": "ZSU.TO ETF"
+  },
+  {
+    "symbol": "ZTIP.TO",
+    "name": "ZTIP.TO ETF"
+  },
+  {
+    "symbol": "ZTL.NE",
+    "name": "ZTL.NE ETF"
+  },
+  {
+    "symbol": "ZTM.NE",
+    "name": "ZTM.NE ETF"
+  },
+  {
+    "symbol": "ZTS.NE",
+    "name": "ZTS.NE ETF"
+  },
+  {
+    "symbol": "ZUAG.TO",
+    "name": "ZUAG.TO ETF"
+  },
+  {
+    "symbol": "ZUB.TO",
+    "name": "ZUB.TO ETF"
+  },
+  {
+    "symbol": "ZUCM.TO",
+    "name": "ZUCM.TO ETF"
+  },
+  {
+    "symbol": "ZUD.TO",
+    "name": "ZUD.TO ETF"
+  },
+  {
+    "symbol": "ZUE.TO",
+    "name": "ZUE.TO ETF"
+  },
+  {
+    "symbol": "ZUH.TO",
+    "name": "ZUH.TO ETF"
+  },
+  {
+    "symbol": "ZUP.TO",
+    "name": "ZUP.TO ETF"
+  },
+  {
+    "symbol": "ZUQ.TO",
+    "name": "ZUQ.TO ETF"
+  },
+  {
+    "symbol": "ZUS.U.TO",
+    "name": "ZUS.U.TO ETF"
+  },
+  {
+    "symbol": "ZUT.TO",
+    "name": "ZUT.TO ETF"
+  },
+  {
+    "symbol": "ZVC.TO",
+    "name": "ZVC.TO ETF"
+  },
+  {
+    "symbol": "ZVU.TO",
+    "name": "ZVU.TO ETF"
+  },
+  {
+    "symbol": "ZXCO.TO",
+    "name": "ZXCO.TO ETF"
+  },
+  {
+    "symbol": "ZXCP.TO",
+    "name": "ZXCP.TO ETF"
+  },
+  {
+    "symbol": "ZXCQ.TO",
+    "name": "ZXCQ.TO ETF"
+  },
+  {
+    "symbol": "ZXLB.TO",
+    "name": "ZXLB.TO ETF"
+  },
+  {
+    "symbol": "ZXLC.TO",
+    "name": "ZXLC.TO ETF"
+  },
+  {
+    "symbol": "ZXLE.TO",
+    "name": "ZXLE.TO ETF"
+  },
+  {
+    "symbol": "ZXLF.TO",
+    "name": "ZXLF.TO ETF"
+  },
+  {
+    "symbol": "ZXLI.TO",
+    "name": "ZXLI.TO ETF"
+  },
+  {
+    "symbol": "ZXLK.TO",
+    "name": "ZXLK.TO ETF"
+  },
+  {
+    "symbol": "ZXLP.TO",
+    "name": "ZXLP.TO ETF"
+  },
+  {
+    "symbol": "ZXLR.TO",
+    "name": "ZXLR.TO ETF"
+  },
+  {
+    "symbol": "ZXLU.TO",
+    "name": "ZXLU.TO ETF"
+  },
+  {
+    "symbol": "ZXLV.TO",
+    "name": "ZXLV.TO ETF"
+  },
+  {
+    "symbol": "ZXLY.TO",
+    "name": "ZXLY.TO ETF"
+  },
+  {
+    "symbol": "ZXM.TO",
+    "name": "ZXM.TO ETF"
+  },
+  {
+    "symbol": "ZZZD.TO",
+    "name": "ZZZD.TO ETF"
+  },
+  {
+    "symbol": "HBB.TO",
+    "name": "Global X Canadian Select Universe Bond Index Corporate Class ETF"
+  },
+  {
+    "symbol": "PHYS.TO",
+    "name": "Sprott Physical Gold Trust"
+  },
+  {
+    "symbol": "PSLV.TO",
+    "name": "Sprott Physical Silver Trust"
+  },
+  {
+    "symbol": "U.UN.TO",
+    "name": "Sprott Physical Uranium Trust"
+  },
+  {
+    "symbol": "CEF.TO",
+    "name": "Sprott Physical Gold and Silver Trust"
+  },
+  {
+    "symbol": "CGL.TO",
+    "name": "iShares Gold Bullion ETF"
+  },
+  {
+    "symbol": "ZGLD.TO",
+    "name": "BMO Gold Bullion ETF"
+  },
+  {
+    "symbol": "MNT.TO",
+    "name": "Royal Canadian Mint - Canadian Gold Reserves Exchange-Traded Receipts"
+  },
+  {
+    "symbol": "FBTC.TO",
+    "name": "Fidelity Advantage Bitcoin ETF"
+  },
+  {
+    "symbol": "FINN.NE",
+    "name": "Fidelity Global Innovators ETF Series L"
+  },
+  {
+    "symbol": "ZWC.TO",
+    "name": "BMO Canadian High Dividend Covered Call ETF"
+  },
+  {
+    "symbol": "ZWU.TO",
+    "name": "BMO Covered Call Utilities ETF"
+  },
+  {
+    "symbol": "HDIV.TO",
+    "name": "Hamilton Enhanced Canadian Covered Call ETF"
+  },
+  {
+    "symbol": "TGED.TO",
+    "name": "TD Active Global Enhanced Dividend ETF"
+  },
+  {
+    "symbol": "UMAX.TO",
+    "name": "Hamilton Utilities YIELD MAXIMIZER TM ETF"
+  },
+  {
+    "symbol": "HXDM.TO",
+    "name": "Global X Intl Developed Markets Equity Index Corporate Class ETF"
+  },
+  {
+    "symbol": "HYLD.TO",
+    "name": "Hamilton Enhanced U.S. Covered Call ETF"
+  },
+  {
+    "symbol": "SMAX.TO",
+    "name": "Hamilton U.S. Equity YIELD MAXIMIZER TM ETF"
+  },
+  {
+    "symbol": "ZWH.TO",
+    "name": "BMO US High Dividend Covered Call ETF"
+  },
+  {
+    "symbol": "ZWP.TO",
+    "name": "BMO Europe High Dividend Covered Call ETF"
+  },
+  {
+    "symbol": "NSDC.TO",
+    "name": "NBI SmartData Canadian Equity Fund"
+  },
+  {
+    "symbol": "DXQ.TO",
+    "name": "Dynamic Active Enhanced Yield Covered Options ETF"
+  },
+  {
+    "symbol": "HULC.TO",
+    "name": "Global X US Large Cap Index Corporate Class ETF"
+  },
+  {
+    "symbol": "HHIS.TO",
+    "name": "Harvest Diversified High Income Shares ETF"
+  },
+  {
+    "symbol": "HXQ.TO",
+    "name": "Global X Nasdaq-100 Index Corporate Class ETF"
+  },
+  {
+    "symbol": "CIAI.TO",
+    "name": "CI Global Artificial Intelligence Fund"
+  },
+  {
+    "symbol": "QMAX.TO",
+    "name": "Hamilton Technology YIELD MAXIMIZER TM ETF"
+  },
+  {
+    "symbol": "HTA.TO",
+    "name": "Harvest Tech Leaders Income ETF"
+  },
+  {
+    "symbol": "TXF.TO",
+    "name": "CI Tech Giants Covered Call ETF"
+  },
+  {
+    "symbol": "EIT.UN.TO",
+    "name": "Canoe EIT Income Fund"
+  },
+  {
+    "symbol": "DFN.TO",
+    "name": "Dividend 15 Split Corp."
+  },
+  {
+    "symbol": "FTN.TO",
+    "name": "Financial 15 Split Corp."
+  },
+  {
+    "symbol": "UNC.TO",
+    "name": "United Corporations Limited"
+  },
+  {
+    "symbol": "CYB.TO",
+    "name": "Cymbria Corporation"
+  },
+  {
+    "symbol": "FFN.TO",
+    "name": "North American Financial 15 Split Corp."
+  },
+  {
+    "symbol": "EVT.TO",
+    "name": "Economic Investment Trust Limited"
+  },
+  {
+    "symbol": "DGS.TO",
+    "name": "Dividend Growth Split Corp."
+  },
+  {
+    "symbol": "CGI.TO",
+    "name": "Canadian General Investments Limited"
+  },
+  {
+    "symbol": "ZWB.TO",
+    "name": "BMO Covered Call Canadian Banks ETF"
+  },
+  {
+    "symbol": "HMAX.TO",
+    "name": "Hamilton Canadian Financials YIELD MAXIMIZER TM ETF"
+  },
+  {
+    "symbol": "BANK.TO",
+    "name": "Evolve Canadian Banks and Lifecos Enhanced Yield Index Fund"
+  },
+  {
+    "symbol": "HCAL.TO",
+    "name": "Hamilton Enhanced Canadian Bank ETF"
+  },
+  {
+    "symbol": "HHL.TO",
+    "name": "Harvest Healthcare Leaders Income ETF"
+  },
+  {
+    "symbol": "HSAV.TO",
+    "name": "Global X Cash Maximizer Corporate Class ETF"
+  },
+  {
+    "symbol": "HXS.TO",
+    "name": "HXS.TO ETF"
+  },
+  {
+    "symbol": "HXT.TO",
+    "name": "HXT.TO ETF"
+  },
+  {
+    "symbol": "HXCN.TO",
+    "name": "HXCN.TO ETF"
+  },
+  {
+    "symbol": "LBS.TO",
+    "name": "LBS.TO ETF"
+  },
+  {
+    "symbol": "AAPP.TO",
+    "name": "AAPP.TO ETF"
+  },
+  {
+    "symbol": "AMZP.TO",
+    "name": "AMZP.TO ETF"
+  },
+  {
+    "symbol": "CCAF.TO",
+    "name": "CCAF.TO ETF"
+  },
+  {
+    "symbol": "CLSF.TO",
+    "name": "CLSF.TO ETF"
+  },
+  {
+    "symbol": "GOOP.TO",
+    "name": "GOOP.TO ETF"
+  },
+  {
+    "symbol": "NAGF.TO",
+    "name": "NAGF.TO ETF"
+  },
+  {
+    "symbol": "NVDP.TO",
+    "name": "NVDP.TO ETF"
+  },
+  {
+    "symbol": "SPCP.TO",
+    "name": "SPCP.TO ETF"
+  },
+  {
+    "symbol": "TSLP.TO",
+    "name": "TSLP.TO ETF"
+  },
+  {
+    "symbol": "XBAI.TO",
+    "name": "XBAI.TO ETF"
+  },
+  {
+    "symbol": "RNCC.TO",
+    "name": "RNCC.TO ETF"
+  },
+  {
+    "symbol": "CUTE.TO",
+    "name": "CUTE.TO ETF"
+  }
+]

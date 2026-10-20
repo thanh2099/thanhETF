@@ -1,0 +1,291 @@
+{
+  "HYLD.TO": {
+    "ticker": "HYLD.TO",
+    "name": "Hamilton Enhanced U.S. Covered Call ETF",
+    "tables": [
+      [
+        [
+          "Currency",
+          "CAD-hedged",
+          "facts↓"
+        ],
+        [
+          "How it's built",
+          "Fund of covered-call ETFs",
+          "holdings↓"
+        ]
+      ],
+      [
+        [
+          "Horizon",
+          "Total return (%/yr)",
+          "Sharpe",
+          "Max drawdown",
+          "Drawdown period"
+        ],
+        [
+          "1Y",
+          "+19.8%",
+          "0.98",
+          "-12.0%",
+          "Jan 2026 toMar 2026"
+        ],
+        [
+          "3Y",
+          "+25.1%",
+          "1.14",
+          "-21.8%",
+          "Jan 2025 toApr 2025"
+        ],
+        [
+          "Since inception",
+          "+12.4%",
+          "0.54",
+          "-31.4%",
+          "Apr 2022 toOct 2022"
+        ]
+      ],
+      [
+        [
+          "Character (2025)",
+          "% of taxable",
+          "$ / unit"
+        ],
+        [
+          "Return of capital",
+          "100.0%",
+          "$1.7680"
+        ]
+      ]
+    ],
+    "holdings_raw": []
+  },
+  "XUS.TO": {
+    "ticker": "XUS.TO",
+    "name": "iShares Core S&P 500 Index ETF",
+    "tables": [
+      [
+        [
+          "Top 10 concentration",
+          "39.4% of the fund",
+          "holdings↓"
+        ],
+        [
+          "Currency",
+          "CAD-unhedged",
+          "facts↓"
+        ],
+        [
+          "How it's built",
+          "Holds one US-listed ETF",
+          "holdings↓"
+        ]
+      ],
+      [
+        [
+          "Horizon",
+          "Total return (%/yr)",
+          "Sharpe",
+          "Max drawdown",
+          "Drawdown period"
+        ],
+        [
+          "1Y",
+          "+17.3%",
+          "1.13",
+          "-8.6%",
+          "Jan 2026 toMar 2026"
+        ],
+        [
+          "3Y",
+          "+24.0%",
+          "1.33",
+          "-19.0%",
+          "Jan 2025 toApr 2025"
+        ],
+        [
+          "5Y",
+          "+15.5%",
+          "0.83",
+          "-21.8%",
+          "Dec 2021 toJun 2022"
+        ]
+      ],
+      [
+        [
+          "Character (2025)",
+          "% of taxable",
+          "$ / unit"
+        ],
+        [
+          "Foreign income",
+          "77.8%",
+          "$0.6436"
+        ],
+        [
+          "Capital gains",
+          "20.2%",
+          "$0.1670"
+        ],
+        [
+          "Return of capital",
+          "2.0%",
+          "$0.0166"
+        ]
+      ]
+    ],
+    "holdings_raw": []
+  },
+  "XEQT.TO": {
+    "ticker": "XEQT.TO",
+    "name": "iShares Core Equity ETF Portfolio",
+    "tables": [
+      [
+        [
+          "Canada weight",
+          "24.7% of equity",
+          "holdings↓"
+        ],
+        [
+          "Currency",
+          "CAD-unhedged",
+          "facts↓"
+        ],
+        [
+          "How it's built",
+          "Holds several ETFs",
+          "holdings↓"
+        ]
+      ],
+      [
+        [
+          "Horizon",
+          "Total return (%/yr)",
+          "Sharpe",
+          "Max drawdown",
+          "Drawdown period"
+        ],
+        [
+          "1Y",
+          "+17.4%",
+          "1.15",
+          "-8.3%",
+          "Feb 2026 toMar 2026"
+        ],
+        [
+          "3Y",
+          "+23.5%",
+          "1.46",
+          "-15.1%",
+          "Jan 2025 toApr 2025"
+        ],
+        [
+          "5Y",
+          "+13.3%",
+          "0.77",
+          "-19.1%",
+          "Dec 2021 toJun 2022"
+        ]
+      ],
+      [
+        [
+          "Character (2025)",
+          "% of taxable",
+          "$ / unit"
+        ],
+        [
+          "Eligible dividends",
+          "22.7%",
+          "$0.2346"
+        ],
+        [
+          "Foreign income",
+          "41.7%",
+          "$0.4312"
+        ],
+        [
+          "Capital gains",
+          "31.2%",
+          "$0.3222"
+        ],
+        [
+          "Return of capital",
+          "4.3%",
+          "$0.0449"
+        ]
+      ]
+    ],
+    "holdings_raw": []
+  },
+  "HMAX.TO": {
+    "ticker": "HMAX.TO",
+    "name": "Hamilton Canadian Financials YIELD MAXIMIZER TM ETF",
+    "tables": [
+      [
+        [
+          "Top 10 concentration",
+          "100.0% of the fund",
+          "holdings↓"
+        ],
+        [
+          "Currency",
+          "CAD-unhedged",
+          "facts↓"
+        ],
+        [
+          "How it's built",
+          "Covered call",
+          "holdings↓"
+        ]
+      ],
+      [
+        [
+          "Horizon",
+          "Total return (%/yr)",
+          "Sharpe",
+          "Max drawdown",
+          "Drawdown period"
+        ],
+        [
+          "1Y",
+          "+26.8%",
+          "1.86",
+          "-7.3%",
+          "Feb 2026 toMar 2026"
+        ],
+        [
+          "3Y",
+          "+25.5%",
+          "1.77",
+          "-12.5%",
+          "Jan 2025 toApr 2025"
+        ],
+        [
+          "Since inception",
+          "+16.7%",
+          "1.09",
+          "-15.3%",
+          "Feb 2023 toOct 2023"
+        ]
+      ],
+      [
+        [
+          "Character (2025)",
+          "% of taxable",
+          "$ / unit"
+        ],
+        [
+          "Eligible dividends",
+          "16.9%",
+          "$0.3371"
+        ],
+        [
+          "Return of capital",
+          "83.1%",
+          "$1.6524"
+        ]
+      ]
+    ],
+    "holdings_raw": []
+  }
+}
